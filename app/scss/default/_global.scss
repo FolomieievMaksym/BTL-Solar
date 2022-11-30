@@ -1,0 +1,38 @@
+body.lock {
+   overflow: hidden;
+}
+
+body {
+   font-family: $ff1;
+   @media (max-width: 768px) {
+      @include fl(16);
+   }
+   @media (min-width: 769px) {
+      @include fl(18);
+   }
+}
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 100vh;
+   overflow: hidden;
+}
+main {
+   flex: 1 1 auto;
+}
+svg {
+   width: 30px;
+   height: auto;
+   &.viber {
+      path {
+         fill: #820e84;
+      }
+   }
+   &.whatsapp {
+      width: 33px;
+   }
+   &.phone {
+      width: 31px;
+   }
+}

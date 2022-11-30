@@ -1,0 +1,63 @@
+// Подключение локальных шрифтов
+@include ff("SourceSansPro", "Regular");
+@include ff("SourceSansPro", "SemiBold");
+@include ff("SourceSansPro", "Bold");
+@include ff("SourceSansPro", "Black");
+
+// @font-face {
+//    font-family: "BTL-Solar";
+//    src: url("../fonts/BTL-Solar.ttf?uapdz") format("truetype"), url("../fonts/BTL-Solar.woff?uapdz") format("woff"),
+//       url("../fonts/BTL-Solar.svg?uapdz#BTL-Solar") format("svg");
+//    font-weight: normal;
+//    font-style: normal;
+//    font-display: block;
+// }
+
+// i {
+//    /* use !important to prevent issues with browser extensions that change fonts */
+//    font-family: "BTL-Solar" !important;
+//    font-style: normal;
+//    font-weight: normal;
+//    font-variant: normal;
+//    text-transform: none;
+//    line-height: 1;
+
+//    /* Better Font Rendering =========== */
+//    -webkit-font-smoothing: antialiased;
+//    -moz-osx-font-smoothing: grayscale;
+// }
+
+// .finger:before {
+//    content: "\e900";
+// }
+// .like:before {
+//    content: "\e901";
+// }
+// .phone:before {
+//    content: "\e902";
+// }
+// .refresh:before {
+//    content: "\e903";
+// }
+// .viber:before {
+//    content: "\e904";
+//    color: #820e84;
+// }
+// // <i class="whatsapp"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+// .whatsapp .path1:before {
+//    content: "\e905";
+//    color: rgb(44, 183, 66);
+// }
+// .whatsapp .path2:before {
+//    content: "\e906";
+//    margin-left: -1em;
+//    color: rgb(255, 255, 255);
+// }
+// .whatsapp .path3:before {
+//    content: "\e907";
+//    margin-left: -1em;
+//    color: rgb(44, 183, 66);
+// }
+// .wallet:before {
+//    content: "\e908";
+// }

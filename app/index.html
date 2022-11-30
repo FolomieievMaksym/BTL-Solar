@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+@@include('./components/structure/_head.html', {
+'lang': 'en',
+'css': 'home',
+'title': 'Home',
+'swiper': 'true',
+})
+<!-- todo указать нужное значение дял подключени\отключения свайпера -->
+
+<body class="home">
+	<div class="wrapper">
+		@@include('./components/structure/_header.html')
+		<main>
+			<section class="hero">
+				<div class='hero__bg'>
+					<picture>
+						<source type='image/webp' srcset='@img/gallery/bg.webp'>
+						<img src='@img/gallery/bg.jpg' alt='Background image'>
+					</picture>
+				</div>
+				<div class="hero__container">
+					<div class="hero__body">
+						<h1 class="hero__title">Портативные источники питания <span>ARGUS</span></h1>
+						<p class="hero__text">Впечатляющая сила не обязательно должна быть в большом размере</p>
+						<a href="#products" class="hero__button">Узнать больше</a>
+					</div>
+				</div>
+			</section>
+			<section class="products" id="products">
+				<div class="products__container">
+					<div class="products__item">
+						<div class='products__image'>
+							<div class="products__image-content">
+								<p class="products__image-model">Argus W500</p>
+								<p class="products__image-text">Small text about</p>
+							</div>
+							<picture>
+								<source type='image/webp' srcset='@img/gallery/1.webp'>
+								<img src='@img/gallery/1.png' alt='Product #1'>
+							</picture>
+						</div>
+						<div class="products__about">
+							<div class="products__about-top">
+								<h2 class="products__about-title">Кричащий заголовок</h2>
+								<p class="products__about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint autem assumenda? Quasi nisi, voluptas nobis pariatur temporibus facere libero vel facilis magni officia sequi itaque sunt voluptates suscipit natus dolor illo aliquam atque labore? Adipisci voluptatem beatae a doloribus omnis? Odio quibusdam doloribus voluptas laborum architecto. Eos, dignissimos impedit quod ab veniam alias aut veritatis iure est, optio placeat!</p>
+							</div>
+							<div class="products__about-bottom">
+								<p class="products__price">Стоимость: 20 000 грн. </p>
+								<a href="product-1.html" class="products__link">Читать больше...</a>
+							</div>
+						</div>
+					</div>
+					<div class="products__item">
+						<div class='products__image'>
+							<div class="products__image-content">
+								<p class="products__image-model">Argus W500</p>
+								<p class="products__image-text">Small text about</p>
+							</div>
+							<picture>
+								<source type='image/webp' srcset='@img/gallery/2.webp'>
+								<img src='@img/gallery/2.png' alt='Product #2'>
+							</picture>
+						</div>
+						<div class="products__about">
+							<div class="products__about-top">
+								<h2 class="products__about-title">Кричащий заголовок</h2>
+								<p class="products__about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint autem assumenda? Quasi nisi, voluptas nobis pariatur temporibus facere libero vel facilis magni officia sequi itaque sunt voluptates suscipit natus dolor illo aliquam atque labore? Adipisci voluptatem beatae a doloribus omnis? Odio quibusdam doloribus voluptas laborum architecto. Eos, dignissimos impedit quod ab veniam alias aut veritatis iure est, optio placeat!</p>
+							</div>
+							<div class="products__about-bottom">
+								<p class="products__price">Стоимость: 20 000 грн. </p>
+								<a href="product-1.html" class="products__link">Читать больше...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('./components/structure/_footer.html')
+	</div>
+	@@include('./components/structure/_scripts.html', {
+	'swiper': 'true',
+	'script': 'script',
+	})
+	<!-- todo указать нужное значение дял подключения\отключения свайпера -->
+</body>
+
+</html>
