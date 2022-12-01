@@ -2,6 +2,17 @@ const body = document.querySelector("body");
 const header = document.querySelector(".header");
 const menu = document.querySelector(".header__right");
 const burger = document.querySelector(".burger");
+window.addEventListener("resize", changeLayout);
+changeLayout();
+function changeLayout(e) {
+   if (window.innerWidth < 769) {
+      menu.style.top = header.scrollHeight + "px";
+      menu.style.height = `calc(100vh - ${header.scrollHeight}px)`;
+   } else {
+      menu.style.top = 0 + "px";
+      menu.style.height = "auto";
+   }
+}
 if (window.innerWidth < 769) {
    menu.style.top = header.scrollHeight + "px";
    menu.style.height = `calc(100vh - ${header.scrollHeight}px)`;
@@ -16,7 +27,7 @@ function burgerToggle(e) {
       } else {
          openBurger();
       }
-   } else if (!e.target.closest(".burger")) {
+   } else if (!e.target.closest(".burger") && !e.target.closest(".header__right-wrapper")) {
       closeBurger();
    }
 }

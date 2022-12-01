@@ -801,8 +801,8 @@ svg.phone {
   content: "";
   position: absolute;
   top: 0px;
-  left: -2%;
-  right: -2%;
+  left: -15%;
+  right: -15%;
   bottom: 10px;
   box-shadow: 0 20px 50px #000, 0 20px 50px #000, 0 20px 50px #000;
 }
@@ -901,8 +901,8 @@ svg.phone {
   content: "";
   position: absolute;
   top: 0px;
-  left: -2%;
-  right: -2%;
+  left: -15%;
+  right: -15%;
   bottom: 10px;
   box-shadow: 0 20px 50px #000, 0 20px 50px #000, 0 20px 50px #000, 0 -20px 50px #000, 0 -20px 50px #000, 0 -20px 50px #000;
 }
@@ -1519,8 +1519,8 @@ svg.phone {
   .benefits,
   .about,
   .products {
-    padding-top: 9.375%;
-    padding-bottom: 9.375%;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
   }
 
   body {
