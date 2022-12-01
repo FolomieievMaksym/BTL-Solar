@@ -200,12 +200,12 @@
 
    &__container {
       @extend %container;
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          display: flex;
          flex-direction: column;
          row-gap: 50px;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          display: grid;
          row-gap: 80px;
       }
@@ -215,16 +215,16 @@
 
    &__item {
       display: grid;
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          grid-template-columns: repeat(12, 1fr);
          column-gap: 50px;
       }
       &:nth-child(odd) {
          .products__image {
-            @media (max-width: 768px) {
+            @media (max-width: 989px) {
                max-width: 400px;
             }
-            @media (min-width: 769px) {
+            @media (min-width: 990px) {
                grid-column: span 4;
                order: 1;
             }
@@ -233,7 +233,7 @@
             text-align: left;
          }
          .products__about {
-            @media (min-width: 769px) {
+            @media (min-width: 990px) {
                grid-column: span 8;
                order: 2;
                text-align: right;
@@ -241,7 +241,7 @@
          }
       }
       &:nth-child(even) {
-         @media (max-width: 768px) {
+         @media (max-width: 989px) {
             align-self: flex-end;
             justify-self: flex-end;
             .products__about {
@@ -249,11 +249,11 @@
             }
          }
          .products__image {
-            @media (max-width: 768px) {
+            @media (max-width: 989px) {
                max-width: 400px;
                margin-left: auto;
             }
-            @media (min-width: 769px) {
+            @media (min-width: 990px) {
                grid-column: span 4;
                order: 2;
             }
@@ -262,7 +262,7 @@
             text-align: right;
          }
          .products__about {
-            @media (min-width: 769px) {
+            @media (min-width: 990px) {
                grid-column: span 8;
                order: 1;
                text-align: left;
@@ -281,11 +281,11 @@
       @media (max-width: 550px) {
          padding-bottom: 70%;
       }
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          padding-bottom: 50%;
          margin-bottom: 20px;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          padding-bottom: 100%;
       }
       width: 100%;
@@ -318,10 +318,10 @@
       left: 0;
       right: 0;
       color: $light;
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          padding: 5%;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          padding: 10%;
       }
    }
@@ -329,10 +329,10 @@
    // .products__image-model
 
    &__image-model {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          font-size: 1.75em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          font-size: 2.2em;
       }
       margin-bottom: 20px;
@@ -342,10 +342,10 @@
    // .products__image-text
 
    &__image-text {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          font-size: 1.3em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          font-size: 1.5em;
       }
    }
@@ -356,10 +356,10 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          row-gap: 20px;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          row-gap: 30px;
       }
    }
@@ -369,11 +369,11 @@
    // .products__about-title
 
    &__about-title {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          margin-bottom: 20px;
          font-size: 1.6em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          margin-bottom: 40px;
          font-size: 2em;
       }
@@ -382,10 +382,16 @@
    // .products__about-text
 
    &__about-text {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          font-size: 1.2em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
+         font-size: 1.3em;
+      }
+      @media (min-width: 1200px) {
+         font-size: 1.4em;
+      }
+      @media (min-width: 1400px) {
          font-size: 1.5em;
       }
    }
@@ -414,7 +420,7 @@
    &__container {
       @extend %container;
       display: grid;
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          grid-template-columns: 1fr 1fr;
          column-gap: 50px;
       }
@@ -423,11 +429,11 @@
    // .about__title
 
    &__title {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          margin-bottom: 30px;
          font-size: 1.75em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          grid-column: span 2;
          margin-bottom: percent(70, 1920);
          font-size: 2.2em;
@@ -437,7 +443,7 @@
    }
 }
 .product-about {
-   @media (max-width: 768px) {
+   @media (max-width: 989px) {
       &:not(:last-child) {
          margin-bottom: 40px;
       }
@@ -445,11 +451,11 @@
    // .product-about__title
 
    &__title {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          margin-bottom: 20px;
          font-size: 1.4em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          margin-bottom: 40px;
          font-size: 1.8em;
       }
@@ -464,10 +470,10 @@
    &__list {
       li {
          display: flex;
-         @media (max-width: 768px) {
+         @media (max-width: 989px) {
             column-gap: 10px;
          }
-         @media (min-width: 769px) {
+         @media (min-width: 990px) {
             column-gap: 15px;
          }
          &:not(:last-child) {
@@ -479,12 +485,12 @@
    // .product-about__num
 
    &__num {
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          flex: 0 0 35px;
          height: 35px;
          font-size: 1.3em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          flex: 0 0 50px;
          height: 50px;
          font-size: 1.5em;
@@ -504,10 +510,10 @@
 
    &__text {
       align-self: center;
-      @media (max-width: 768px) {
+      @media (max-width: 989px) {
          font-size: 1.15em;
       }
-      @media (min-width: 769px) {
+      @media (min-width: 990px) {
          font-size: 1.4em;
       }
    }
