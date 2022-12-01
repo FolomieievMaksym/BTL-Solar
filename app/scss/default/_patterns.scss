@@ -10,10 +10,14 @@
       padding-right: percent(100, 1920);
    }
    @media (min-width: 1400px) {
+      padding-left: percent(150, 1920);
+      padding-right: percent(150, 1920);
+   }
+   @media (min-width: 1600px) {
       padding-left: percent(200, 1920);
       padding-right: percent(200, 1920);
    }
-   @media (min-width: 1600px) {
+   @media (min-width: 1800px) {
       padding-left: percent(250, 1920);
       padding-right: percent(250, 1920);
    }
