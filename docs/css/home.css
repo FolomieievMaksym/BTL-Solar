@@ -266,25 +266,16 @@ svg.phone {
   font-weight: 700;
 }
 
-.header__right {
-  display: flex;
-  align-items: center;
-  -moz-column-gap: 30px;
-  column-gap: 30px;
-  flex-wrap: wrap;
-}
-
 .header__menu-list {
   display: flex;
   align-items: center;
-  -moz-column-gap: 15px;
-  column-gap: 15px;
+  -moz-column-gap: 10px;
+  column-gap: 10px;
 }
 
 .header__menu-list a {
   display: inline-block;
   padding: 5px;
-  font-size: 1.2em;
   border-radius: 10px;
   position: relative;
 }
@@ -345,8 +336,6 @@ svg.phone {
 }
 
 .header__button {
-  font-size: 1.5rem;
-  line-height: 1.25;
   background-color: #232323;
   color: #fff;
   box-shadow: 0 0px 5px #232323;
@@ -892,8 +881,6 @@ svg.phone {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 1.25rem;
-  line-height: 1.25;
   text-align: center;
 }
 
@@ -994,8 +981,6 @@ svg.phone {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 1.25rem;
-  line-height: 1.25;
   text-align: center;
 }
 
@@ -1097,23 +1082,20 @@ svg.phone {
   left: 0;
   right: 0;
   padding: 10%;
-  font-size: 2.5rem;
-  line-height: 1.25;
   color: #fff;
 }
 
 .products__image-model {
   margin-bottom: 20px;
   text-shadow: 0 0 5px #232323;
+  font-size: 2.2em;
 }
 
 .products__image-text {
-  font-size: 0.7em;
+  font-size: 1.5em;
 }
 
 .products__about {
-  font-size: 2.1875rem;
-  line-height: 1.25;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1122,21 +1104,22 @@ svg.phone {
 
 .products__about-title {
   margin-bottom: 40px;
+  font-size: 2em;
 }
 
 .products__about-text {
-  font-size: 0.8em;
+  font-size: 1.55em;
 }
 
 .products__price {
-  margin-bottom: -4px;
-  font-size: 0.9em;
+  margin-bottom: 8px;
+  font-size: 1.7em;
 }
 
 .products__link {
   color: rgb(4, 82, 209);
   font-weight: 600;
-  font-size: 0.6em;
+  font-size: 1.2em;
   transition: all 0.3s ease;
 }
 
@@ -1158,7 +1141,7 @@ svg.phone {
 
 .about__title {
   grid-column: span 2;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 600;
   text-align: center;
   margin-bottom: 3.6458333333%;
@@ -1217,7 +1200,7 @@ svg.phone {
 
 .benefits__title {
   grid-column: span 4;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 600;
   text-align: center;
   margin-bottom: 3.6458333333%;
@@ -1461,13 +1444,34 @@ svg.phone {
   .hero__container,
   .footer__container,
   .header__container {
-    padding-left: 13.0208333333%;
-    padding-right: 13.0208333333%;
+    padding-left: 2.1428571429%;
+    padding-right: 2.1428571429%;
   }
 
   body {
     font-size: 1.125rem;
     line-height: 1.25;
+  }
+
+  .header__right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 10px;
+  }
+
+  .header__buttons {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+  }
+
+  .header__button {
+    font-size: 1.1em;
   }
 
   .header-action li:hover a:after {
@@ -1497,6 +1501,36 @@ svg.phone {
   .footer {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__menu-list a {
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header__menu-list a {
+    font-size: 1.2em;
+  }
+
+  .header__button {
+    font-size: 1.35em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .order__container,
+  .benefits__container,
+  .about__container,
+  .products__container,
+  .hero-half__container,
+  .hero__container,
+  .footer__container,
+  .header__container {
+    padding-left: 13.0208333333%;
+    padding-right: 13.0208333333%;
   }
 }
 

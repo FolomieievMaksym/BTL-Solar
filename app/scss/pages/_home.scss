@@ -52,7 +52,6 @@
       justify-content: center;
       align-items: center;
       color: $light;
-      @include fl(20);
       text-align: center;
    }
    &__title {
@@ -143,7 +142,6 @@
       justify-content: center;
       align-items: center;
       color: $light;
-      @include fl(20);
       text-align: center;
    }
    &__title {
@@ -248,7 +246,6 @@
       left: 0;
       right: 0;
       padding: 10%;
-      @include fl(40);
       color: $light;
    }
 
@@ -257,18 +254,18 @@
    &__image-model {
       margin-bottom: 20px;
       text-shadow: 0 0 5px $dark;
+      font-size: 2.2em;
    }
 
    // .products__image-text
 
    &__image-text {
-      font-size: 0.7em;
+      font-size: 1.5em;
    }
 
    // .products__about
 
    &__about {
-      @include fl(35);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -281,24 +278,26 @@
 
    &__about-title {
       margin-bottom: 40px;
+      font-size: 2em;
    }
 
    // .products__about-text
 
    &__about-text {
-      font-size: 0.8em;
+      font-size: 1.55em;
    }
 
    &__about-bottom {
    }
    &__price {
-      margin-bottom: -4px;
-      font-size: 0.9em;
+      margin-bottom: 8px;
+      font-size: 1.7em;
    }
    &__link {
       color: $decor;
       font-weight: 600;
-      font-size: 0.6em;
+      // font-size: 0.6em;
+      font-size: 1.2em;
       transition: all 0.3s ease;
       &:hover {
          opacity: 0.6;
@@ -321,7 +320,7 @@
 
    &__title {
       grid-column: span 2;
-      font-size: 2em;
+      font-size: 2.2em;
       font-weight: 600;
       text-align: center;
       margin-bottom: percent(70, 1920);
@@ -392,7 +391,7 @@
 
    &__title {
       grid-column: span 4;
-      font-size: 2em;
+      font-size: 2.2em;
       font-weight: 600;
       text-align: center;
       margin-bottom: percent(70, 1920);
