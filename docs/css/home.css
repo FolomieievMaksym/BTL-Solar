@@ -117,7 +117,7 @@ input[type=submit],
   border-radius: 0;
 }
 
-.form__container,
+.order__container,
 .benefits__container,
 .about__container,
 .products__container,
@@ -272,6 +272,60 @@ svg.phone {
   -moz-column-gap: 30px;
   column-gap: 30px;
   flex-wrap: wrap;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
+}
+
+.header__menu-list a {
+  display: inline-block;
+  padding: 5px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  position: relative;
+}
+
+.header__menu-list a:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  border: 2px solid rgb(4, 82, 209);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 0px 3px rgb(4, 82, 209);
+}
+
+.header__menu-list a:after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  transition: all 0.3s ease;
+  background: rgb(4, 82, 209);
+}
+
+.header__menu-list a:hover {
+  color: rgb(4, 82, 209);
+}
+
+.header__menu-list a:hover::before {
+  opacity: 1;
+}
+
+.header__menu-list a:active::before {
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 
 .header__social {
@@ -1080,7 +1134,7 @@ svg.phone {
 }
 
 .products__link {
-  color: rgb(22, 90, 200);
+  color: rgb(4, 82, 209);
   font-weight: 600;
   font-size: 0.6em;
   transition: all 0.3s ease;
@@ -1112,7 +1166,7 @@ svg.phone {
 
 .product-about__title {
   text-align: center;
-  color: rgb(22, 90, 200);
+  color: rgb(4, 82, 209);
   margin-bottom: 40px;
   font-size: 1.8em;
   font-weight: 600;
@@ -1190,37 +1244,37 @@ svg.phone {
   font-weight: 506;
 }
 
-.form {
+.order {
   padding-top: 5.2083333333%;
   padding-bottom: 5.2083333333%;
 }
 
-.form__container {
+.order__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 50px;
   column-gap: 50px;
 }
 
-.form__left {
+.order__left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   row-gap: 60px;
 }
 
-.form__title {
+.order__title {
   font-size: 2.5em;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.form__subtext {
+.order__subtext {
   font-size: 1.5em;
   max-width: 90%;
 }
 
-.form__contacts a {
+.order__contacts a {
   display: flex;
   align-items: center;
   max-width: -moz-max-content;
@@ -1229,11 +1283,11 @@ svg.phone {
   column-gap: 12px;
 }
 
-.form__contacts a:not(:last-child) {
+.order__contacts a:not(:last-child) {
   margin-bottom: 15px;
 }
 
-.form__contacts span {
+.order__contacts span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1243,66 +1297,66 @@ svg.phone {
   box-shadow: 0 0 5px #232323, inset 0 0 5px #fff;
 }
 
-.form__contacts path {
+.order__contacts path {
   fill: #fff;
 }
 
-.form__contacts p {
+.order__contacts p {
   font-size: 1.3em;
 }
 
-.form__social-title {
+.order__social-title {
   font-size: 1.5em;
   margin-bottom: 20px;
 }
 
-.form__list {
+.order__list {
   display: flex;
   align-items: center;
   -moz-column-gap: 20px;
   column-gap: 20px;
 }
 
-.form__list li:nth-child(1) a {
+.order__list li:nth-child(1) a {
   background-color: #820e84;
   box-shadow: 0 0 5px #820e84, inset 0 0 5px #fff;
 }
 
-.form__list li:nth-child(1) path {
+.order__list li:nth-child(1) path {
   fill: #fff;
 }
 
-.form__list li:nth-child(2) a {
+.order__list li:nth-child(2) a {
   background-color: #2cb742;
   box-shadow: 0 0 5px #2cb742, inset 0 0 5px #fff;
 }
 
-.form__list li:nth-child(2) svg {
+.order__list li:nth-child(2) svg {
   width: 37px;
 }
 
-.form__list li:nth-child(2) path {
+.order__list li:nth-child(2) path {
   fill: #fff !important;
 }
 
-.form__list li:nth-child(2) path:nth-child(2) {
+.order__list li:nth-child(2) path:nth-child(2) {
   fill: #2cb742 !important;
 }
 
-.form__list li:nth-child(3) a {
+.order__list li:nth-child(3) a {
   background-color: #e9106a;
   box-shadow: 0 0 5px #e9106a, inset 0 0 5px #fff;
 }
 
-.form__list li:nth-child(3) svg {
+.order__list li:nth-child(3) svg {
   width: 46px;
 }
 
-.form__list li:nth-child(3) path {
+.order__list li:nth-child(3) path {
   fill: #fff;
 }
 
-.form__list a {
+.order__list a {
   display: inline-block;
   border-radius: 25%;
   position: relative;
@@ -1311,19 +1365,95 @@ svg.phone {
   transition: all 0.3s ease;
 }
 
-.form__list a svg {
+.order__list a svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.form__list a:hover {
+.order__list a:hover {
   transform: scale(1.1);
 }
 
+.order__right {
+  padding: 60px;
+  border-radius: 25px;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.order__form-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: auto;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.order__form-body input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 100px;
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+}
+
+.order__form-body input:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.order__form-body input::-moz-placeholder {
+  opacity: 0.6;
+}
+
+.order__form-body input::placeholder {
+  opacity: 0.6;
+}
+
+.order__form-body input:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.order__form-body input:nth-child(2) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.order__form-body input:nth-child(3) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.order__form-body input:nth-child(4) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-color: #232323;
+  color: #fff;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 40px 55px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0px 5px #232323;
+  transition: all 0.3s ease;
+}
+
+.order__form-body input:nth-child(4):hover {
+  transform: scale(1.05);
+  box-shadow: 0 0px 10px #232323;
+}
+
+.order__form-body input:nth-child(4):active {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
 @media (min-width: 769px) {
-  .form__container,
+  .order__container,
   .benefits__container,
   .about__container,
   .products__container,

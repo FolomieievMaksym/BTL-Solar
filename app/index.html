@@ -3,7 +3,7 @@
 'lang': 'en',
 'css': 'home',
 'title': 'Home',
-'swiper': 'true',
+'swiper': 'false',
 })
 <!-- todo указать нужное значение дял подключени\отключения свайпера -->
 
@@ -28,7 +28,7 @@
 			</section>
 			<section class="products" id="products">
 				<div class="products__container">
-					<div class="products__item">
+					<div class="products__item" id="500W">
 						<div class='products__image'>
 							<div class="products__image-content">
 								<p class="products__image-model">Argus 500W</p>
@@ -50,7 +50,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="products__item">
+					<div class="products__item" id="600W">
 						<div class='products__image'>
 							<div class="products__image-content">
 								<p class="products__image-model">Argus 600W</p>
@@ -67,7 +67,7 @@
 								<p class="products__about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint autem assumenda? Quasi nisi, voluptas nobis pariatur temporibus facere libero vel facilis magni officia sequi itaque sunt voluptates suscipit natus dolor illo aliquam atque labore? Adipisci voluptatem beatae a doloribus omnis? Odio quibusdam doloribus voluptas laborum architecto. Eos, dignissimos impedit quod ab veniam alias aut veritatis iure est, optio placeat!</p>
 							</div>
 							<div class="products__about-bottom">
-								<p class="products__price">Стоимость: 20 000 грн. </p>
+								<p class="products__price">Стоимость: 25 000 грн. </p>
 								<a href="product-1.html" class="products__link">Читать больше...</a>
 							</div>
 						</div>
@@ -88,7 +88,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="about">
+			<section class="about" id="about">
 				<div class="about__container">
 					<p class="about__title">Основные характеристики</p>
 					<div class="about__product product-about">
@@ -134,7 +134,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="benefits">
+			<section class="benefits" id="benefits">
 				<div class="benefits__container">
 					<p class="benefits__title">Наши преимущества!</p>
 					<div class="benefits__item">
@@ -163,26 +163,26 @@
 					</div>
 				</div>
 			</section>
-			<section class="form" id="form">
-				<div class="form__container">
-					<div class="form__left">
-						<div class="form__text">
-							<p class="form__title">Оформить заказ</p>
-							<p class="form__subtext">Для заказа нужно заполнить форму, либо обратиться по контактам указанным на сайте.</p>
+			<section class="order" id="form">
+				<div class="order__container">
+					<div class="order__left">
+						<div class="order__text">
+							<p class="order__title">Оформить заказ</p>
+							<p class="order__subtext">Для заказа нужно заполнить форму, либо обратиться по контактам указанным на сайте.</p>
 						</div>
-						<div class="form__contacts">
-							<a href="cdn-cgi/l/email-protection.html#bfd6d1d9d0ffddcbd3ccd0d3decd91dcd0d2" class="form__mail">
+						<div class="order__contacts">
+							<a href="cdn-cgi/l/email-protection.html#bfd6d1d9d0ffddcbd3ccd0d3decd91dcd0d2" class="order__mail">
 								<span>@@include('./components/icons/_mail.html')</span>
 								<p>info@btlsolar.com</p>
 							</a>
-							<a href="tel:+380999230976" class="form__phone">
+							<a href="tel:+380999230976" class="order__phone">
 								<span>@@include('./components/icons/_phone-contacts.html')</span>
 								<p>+38 099 923 09 76</p>
 							</a>
 						</div>
-						<div class="form__social">
-							<p class="form__social-title">А так же:</p>
-							<ul class="form__list">
+						<div class="order__social">
+							<p class="order__social-title">А так же:</p>
+							<ul class="order__list">
 								<li>
 									<a href="viber://chat?number=+380999230976">
 										@@include('./components/icons/_viber.html')
@@ -201,14 +201,21 @@
 							</ul>
 						</div>
 					</div>
-					<div class="form__right"></div>
+					<form class="order__right">
+						<div class="order__form-body">
+							<input type="text" placeholder="Ваше Имя">
+							<input type="tel" placeholder="Номер телефона">
+							<input type="email" placeholder="E-mail">
+							<input type="submit" value="Заказать">
+						</div>
+					</form>
 				</div>
 			</section>
 		</main>
 		@@include('./components/structure/_footer.html')
 	</div>
 	@@include('./components/structure/_scripts.html', {
-	'swiper': 'true',
+	'swiper': 'false',
 	'script': 'script',
 	})
 	<!-- todo указать нужное значение дял подключения\отключения свайпера -->
