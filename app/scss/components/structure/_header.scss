@@ -55,6 +55,33 @@
    // .header__right
 
    &__right {
+      @media (max-width: 768px) {
+         position: fixed;
+         top: 0;
+         left: 100%;
+         width: 100%;
+         backdrop-filter: blur(0px);
+         transition: left 1s ease 0.3s, backdrop-filter 0.3s ease 0s;
+         overflow-y: auto;
+         &.active {
+            left: 0;
+            backdrop-filter: blur(5px);
+            transition: left 1s ease, backdrop-filter 0.3s ease 1s;
+         }
+      }
+   }
+
+   &__right-wrapper {
+      @media (max-width: 768px) {
+         background-color: $light;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         display: flex;
+         flex-direction: column;
+         row-gap: 50px;
+         overflow-y: auto;
+         margin-bottom: 50px;
+      }
       @media (min-width: 769px) {
          display: flex;
          flex-wrap: wrap;
@@ -64,18 +91,28 @@
          row-gap: 10px;
       }
    }
-
    &__menu {
    }
    &__menu-list {
-      display: flex;
-      align-items: center;
-      column-gap: 10px;
+      @media (max-width: 768px) {
+         display: grid;
+         gap: 30px;
+         justify-items: center;
+      }
+      @media (min-width: 769px) {
+         display: flex;
+         align-items: center;
+         column-gap: 10px;
+      }
       a {
          display: inline-block;
          padding: 5px;
          border-radius: 10px;
          position: relative;
+         @media (max-width: 768px) {
+            font-size: 1.5em;
+            font-weight: 600;
+         }
          @media (min-width: 1000px) {
             font-size: 1.1em;
          }
@@ -94,8 +131,6 @@
             opacity: 0;
             transition: all 0.3s ease;
             box-shadow: 0 0px 3px $decor;
-            &:hover {
-            }
          }
          &:after {
             content: "";
@@ -128,6 +163,13 @@
    }
 
    &__buttons {
+      @media (max-width: 768px) {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         row-gap: 30px;
+      }
       @media (min-width: 769px) {
          display: flex;
          align-items: center;
@@ -159,6 +201,9 @@
       color: $light;
       box-shadow: 0 0px 5px $dark;
       transition: all 0.3s ease;
+      @media (max-width: 768px) {
+         font-size: 1.5em;
+      }
       @media (min-width: 769px) {
          font-size: 1.1em;
       }
@@ -172,48 +217,6 @@
       &:active {
          transform: scale(1.02);
          opacity: 0.9;
-      }
-   }
-}
-
-.header-action {
-   flex: 1 1 auto; //Растягиваем на всю возможную ширину
-   max-width: 150px; // Задаем максимальную ширину (брать ширину меню из макета)
-   position: relative;
-   z-index: 2;
-   display: flex;
-   align-items: center;
-   justify-content: space-between; // Раздвигаем элементы меню между собой для резинового увеличения отступа
-   column-gap: 15px; // минимальный отступ между элементами меню
-   li {
-      cursor: pointer;
-      transition: all 0.3s ease;
-      &:hover {
-         @media (min-width: 769px) {
-            a {
-               &:after {
-                  width: 100%;
-               }
-            }
-         }
-      }
-      a {
-         padding-top: 5px;
-         padding-bottom: 5px;
-         @media (min-width: 769px) {
-            display: block;
-            position: relative;
-            &:after {
-               content: "";
-               position: absolute;
-               bottom: 5px;
-               left: 0;
-               width: 0;
-               height: 1px;
-               background: #000;
-               transition: all 0.3s ease;
-            }
-         }
       }
    }
 }

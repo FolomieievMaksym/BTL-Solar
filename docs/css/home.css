@@ -266,13 +266,6 @@ svg.phone {
   font-weight: 700;
 }
 
-.header__menu-list {
-  display: flex;
-  align-items: center;
-  -moz-column-gap: 10px;
-  column-gap: 10px;
-}
-
 .header__menu-list a {
   display: inline-block;
   padding: 5px;
@@ -350,28 +343,6 @@ svg.phone {
 .header__button:active {
   transform: scale(1.02);
   opacity: 0.9;
-}
-
-.header-action {
-  flex: 1 1 auto;
-  max-width: 150px;
-  position: relative;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  -moz-column-gap: 15px;
-  column-gap: 15px;
-}
-
-.header-action li {
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.header-action li a {
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 .burger {
@@ -1441,7 +1412,7 @@ svg.phone {
     line-height: 1.25;
   }
 
-  .header__right {
+  .header__right-wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1449,6 +1420,13 @@ svg.phone {
     -moz-column-gap: 30px;
     column-gap: 30px;
     row-gap: 10px;
+  }
+
+  .header__menu-list {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
   }
 
   .header__buttons {
@@ -1460,26 +1438,6 @@ svg.phone {
 
   .header__button {
     font-size: 1.1em;
-  }
-
-  .header-action li:hover a:after {
-    width: 100%;
-  }
-
-  .header-action li a {
-    display: block;
-    position: relative;
-  }
-
-  .header-action li a:after {
-    content: "";
-    position: absolute;
-    bottom: 5px;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background: #000;
-    transition: all 0.3s ease;
   }
 
   .burger {
@@ -1568,6 +1526,62 @@ svg.phone {
   body {
     font-size: 1rem;
     line-height: 1.25;
+  }
+
+  .header__right {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    transition: left 1s ease 0.3s, -webkit-backdrop-filter 0.3s ease 0s;
+    transition: left 1s ease 0.3s, backdrop-filter 0.3s ease 0s;
+    transition: left 1s ease 0.3s, backdrop-filter 0.3s ease 0s, -webkit-backdrop-filter 0.3s ease 0s;
+    overflow-y: auto;
+  }
+
+  .header__right.active {
+    left: 0;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    transition: left 1s ease, -webkit-backdrop-filter 0.3s ease 1s;
+    transition: left 1s ease, backdrop-filter 0.3s ease 1s;
+    transition: left 1s ease, backdrop-filter 0.3s ease 1s, -webkit-backdrop-filter 0.3s ease 1s;
+  }
+
+  .header__right-wrapper {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    overflow-y: auto;
+    margin-bottom: 50px;
+  }
+
+  .header__menu-list {
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .header__menu-list a {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  .header__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .header__button {
+    font-size: 1.5em;
   }
 
   .footer {

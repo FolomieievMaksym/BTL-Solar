@@ -1,6 +1,11 @@
 const body = document.querySelector("body");
 const header = document.querySelector(".header");
+const menu = document.querySelector(".header__right");
 const burger = document.querySelector(".burger");
+if (window.innerWidth < 769) {
+   menu.style.top = header.scrollHeight + "px";
+   menu.style.height = `calc(100vh - ${header.scrollHeight}px)`;
+}
 // ! Burger
 
 body.addEventListener("click", burgerToggle);
@@ -18,12 +23,14 @@ function burgerToggle(e) {
 function openBurger() {
    body.classList.add("lock");
    header.classList.add("active");
+   menu.classList.add("active");
    burger.classList.add("active");
    window.addEventListener("scroll", closeBurger);
 }
 function closeBurger() {
    body.classList.remove("lock");
    header.classList.remove("active");
+   menu.classList.remove("active");
    burger.classList.remove("active");
    window.removeEventListener("scroll", closeBurger);
 }
