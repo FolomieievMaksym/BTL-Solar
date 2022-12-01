@@ -1279,29 +1279,11 @@ svg.phone {
   opacity: 0.6;
 }
 
-.order__form-body input:nth-child(1) {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.order__form-body input:nth-child(2) {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-.order__form-body input:nth-child(3) {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
 .order__form-body input:nth-child(4) {
-  grid-column: 1/2;
-  grid-row: 3/4;
   background-color: #232323;
   color: #fff;
   max-width: -moz-max-content;
   max-width: max-content;
-  padding: 40px 55px;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
@@ -1508,6 +1490,27 @@ svg.phone {
   .order__form-body input {
     font-size: 1.5em;
     padding: 25px;
+  }
+
+  .order__form-body input:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .order__form-body input:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .order__form-body input:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .order__form-body input:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 40px 55px;
   }
 
   .order__form-body input:nth-child(4) {
@@ -1768,12 +1771,16 @@ svg.phone {
   .order__form-body {
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 20px;
   }
 
   .order__form-body input {
     font-size: 1.3em;
-    padding: 10px;
+    padding: 15px;
+  }
+
+  .order__form-body input:nth-child(4) {
+    padding: 16px 22px;
   }
 
   .order__form-body input:nth-child(4) {
