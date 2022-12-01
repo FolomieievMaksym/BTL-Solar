@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.bluettipower.eu/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.bluettipower.eu/collections/ac-series.atom"/>
+  <title>Bluettipower-EU</title>
+  <updated>2022-08-08T15:50:04+08:00</updated>
+  <author>
+    <name>Bluettipower-EU</name>
+  </author>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7989719400715</id>
+    <published>2022-08-08T15:50:04+08:00</published>
+    <updated>2022-08-08T15:50:04+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200p-b230"/>
+    <title>BLUETTI AC200P +B230 Home Battery Backup</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200P_B230.jpg?v=1659941924"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            3099.00 - 4797.00
+            <a href="https://www.bluettipower.eu/products/ac200p-b230">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7989719400715</id>
+      <title>AC200P+B230</title>
+      <s:price currency="EUR">3099.00</s:price>
+      <s:sku>AC200P+B230+P090D-XT90</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7989719400715</id>
+      <title>AC200P+2*B230</title>
+      <s:price currency="EUR">4797.00</s:price>
+      <s:sku>AC200P+2*B230+2*19.0704.0077-00+D050S</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7989719400715</id>
+      <title>AC200P+B300</title>
+      <s:price currency="EUR">3999.00</s:price>
+      <s:sku>AC200P+B300+P090D-XT90</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7985122869515</id>
+    <published>2022-07-22T18:56:42+08:00</published>
+    <updated>2022-07-22T18:56:42+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-b300-2pv350"/>
+    <title>BLUETTI AC300 + B300 + 2*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_B300_2PV350.jpg?v=1658484965"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            5499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7985122869515</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">5499.00</s:price>
+      <s:sku>AC300+B300+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7983493185803</id>
+    <published>2022-07-16T16:51:43+08:00</published>
+    <updated>2022-07-16T16:51:43+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-b300-3pv350"/>
+    <title>BLUETTI AC300 + B300 + 3*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/ac300-b300-3sp350.jpg?v=1657961495"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            6399.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>2 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7983493185803</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6399.00</s:price>
+      <s:sku>AC300+B300+3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7981841318155</id>
+    <published>2022-07-13T09:47:01+08:00</published>
+    <updated>2022-07-13T09:47:01+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-3pv350"/>
+    <title>BLUETTI AC200MAX+3*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_3PV350.jpg?v=1657676802"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            4499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7981841318155</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4499.00</s:price>
+      <s:sku>AC200MAX+3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7981839745291</id>
+    <published>2022-07-13T09:44:05+08:00</published>
+    <updated>2022-07-13T09:44:05+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-2pv350"/>
+    <title>BLUETTI AC200MAX+2*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_2PV350_3cc8fdaa-80ac-46af-b9b0-9934c9c62d30.jpg?v=1657676630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            3699.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7981839745291</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">3699.00</s:price>
+      <s:sku>AC200MAX+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7978864378123</id>
+    <published>2022-07-05T09:54:49+08:00</published>
+    <updated>2022-07-05T09:54:49+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-b230-3pv350"/>
+    <title>BLUETTI AC200MAX+B230+3*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_B230_3PV350.jpg?v=1656986038"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            6299.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7978864378123</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6299.00</s:price>
+      <s:sku>AC200MAX+B230+3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7967364612363</id>
+    <published>2022-06-02T14:08:01+08:00</published>
+    <updated>2022-06-02T14:08:01+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200p-series-solar-generator-kit"/>
+    <title>BLUETTI  AC200P Series Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200P_4_Years_Warranty.png?v=1663842630"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            2599.00 - 3359.00
+            <a href="https://www.bluettipower.eu/products/ac200p-series-solar-generator-kit">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7967364612363</id>
+      <title>AC200P+3*PV120</title>
+      <s:price currency="EUR">2799.00</s:price>
+      <s:sku>AC200P+3*PV120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7967364612363</id>
+      <title>AC200P+3*PV200</title>
+      <s:price currency="EUR">3099.00</s:price>
+      <s:sku>AC200P+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7967364612363</id>
+      <title>AC200P+PV350</title>
+      <s:price currency="EUR">2599.00</s:price>
+      <s:sku>AC200P+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7967364612363</id>
+      <title>AC200P+2*PV350</title>
+      <s:price currency="EUR">3359.00</s:price>
+      <s:sku>AC200P+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7963905851659</id>
+    <published>2022-05-23T16:32:08+08:00</published>
+    <updated>2022-05-23T16:32:08+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-b230-3sp200"/>
+    <title>BLUETTI AC200MAX+B230+3*PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_B230_3PV200.jpg?v=1659164278"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            5195.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7963905851659</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">5195.00</s:price>
+      <s:sku>AC200MAX+B230+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7550978982141</id>
+    <published>2022-05-21T14:49:02+08:00</published>
+    <updated>2022-05-21T14:49:02+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-b300-3sp200"/>
+    <title>BLUETTI AC300+B300+3*PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_B300_3PV200_9a6bbb3b-d4a6-4d25-aa50-53a090197954.jpg?v=1659164389"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            5199.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>4 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7550978982141</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">5199.00</s:price>
+      <s:sku>AC300+B300+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7963439268107</id>
+    <published>2022-05-20T10:56:46+08:00</published>
+    <updated>2022-05-20T10:56:46+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200p-sp350"/>
+    <title>BLUETTI  AC200P + PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200P_PV350_0406694d-6ab0-4e00-a5d1-c0e8e513a135.jpg?v=1656990244"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            2599.00 - 4199.00
+            <a href="https://www.bluettipower.eu/products/ac200p-sp350">(3 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7963439268107</id>
+      <title>AC200P+PV350</title>
+      <s:price currency="EUR">2599.00</s:price>
+      <s:sku>AC200P+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7963439268107</id>
+      <title>AC200P+2*PV350</title>
+      <s:price currency="EUR">3359.00</s:price>
+      <s:sku>AC200P+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7963439268107</id>
+      <title>AC200P+3*PV350</title>
+      <s:price currency="EUR">4199.00</s:price>
+      <s:sku>AC200P+3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7963439366411</id>
+    <published>2022-05-20T10:56:38+08:00</published>
+    <updated>2022-05-20T10:56:38+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200p-2sp350"/>
+    <title>BLUETTI  AC200P + 2*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200P_2PV350_537f0aa1-681e-4ac5-a61f-f7230b3be5fc.jpg?v=1661245618"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            3359.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7963439366411</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">3359.00</s:price>
+      <s:sku>AC200P+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7962856227083</id>
+    <published>2022-05-19T12:05:09+08:00</published>
+    <updated>2022-05-19T12:05:09+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-sp200"/>
+    <title>BLUETTI AC200MAX+PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_PV200_e4b86671-d556-41a3-a53d-2baea5a9c69d.jpg?v=1659164295"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            2299.00 - 3499.00
+            <a href="https://www.bluettipower.eu/products/ac200max-sp200">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7962856227083</id>
+      <title>AC200MAX+PV200</title>
+      <s:price currency="EUR">2299.00</s:price>
+      <s:sku>AC200MAX+PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7962856227083</id>
+      <title>AC200MAX+3*PV200</title>
+      <s:price currency="EUR">3499.00</s:price>
+      <s:sku>AC200MAX+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7962856358155</id>
+    <published>2022-05-19T11:53:12+08:00</published>
+    <updated>2022-05-19T11:53:12+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-ac200max-sp350-power-station-combo"/>
+    <title>BLUETTI AC200MAX+PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_PV350.jpg?v=1657184584"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            2699.00 - 3699.00
+            <a href="https://www.bluettipower.eu/products/bluetti-ac200max-sp350-power-station-combo">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7962856358155</id>
+      <title>AC200MAX+PV350</title>
+      <s:price currency="EUR">2699.00</s:price>
+      <s:sku>AC200MAX+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7962856358155</id>
+      <title>AC200MAX+2*PV350</title>
+      <s:price currency="EUR">3699.00</s:price>
+      <s:sku>AC200MAX+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7962860978443</id>
+    <published>2022-05-19T11:22:54+08:00</published>
+    <updated>2022-05-19T11:22:54+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/t400-ac-adapter-400w"/>
+    <title>T400 AC ADAPTER (400W-AC200P/AC200MAX)</title>
+    <s:type>ACCESSORIES</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/T400.jpg?v=1652930561"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>ACCESSORIES<br>
+        <strong>Price: </strong>
+            179.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span data-mce-fragment="1"><strong>AC200MAX</strong></span></p>
+<p><span data-mce-fragment="1">Used to charge the BLUETTI AC200P/AC200MAX</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7962860978443</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">179.00</s:price>
+      <s:sku>19.0704.0093-00</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7680047382781</id>
+    <published>2022-05-07T10:40:30+08:00</published>
+    <updated>2022-05-07T10:40:30+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-2b230-3sp200"/>
+    <title>BLUETTI AC200MAX+2*B230+3*PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_2B230_3PV200_10f2021b-da97-4ac6-8483-76eecbaea369.jpg?v=1659164253"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            6696.97
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7680047382781</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6696.97</s:price>
+      <s:sku>AC200MAX+2*B230+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7680043155709</id>
+    <published>2022-05-07T10:36:30+08:00</published>
+    <updated>2022-05-07T10:36:30+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-2b230-2sp200"/>
+    <title>BLUETTI AC200MAX + 2*B230+2*PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_2B230_2PV200.jpg?v=1659164234"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            6196.98
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7680043155709</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6196.98</s:price>
+      <s:sku>AC200MAX+2*B230+2*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7616221479165</id>
+    <published>2022-05-06T10:21:42+08:00</published>
+    <updated>2022-05-06T10:21:42+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-ac300-2-b300-3-sp200"/>
+    <title>BLUETTI AC300 + 2*B300 + 3*PV200 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_2B300_3PV200.jpg?v=1659164381"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            7895.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>2 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7616221479165</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">7895.00</s:price>
+      <s:sku>AC300+2*B300+3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7588398760189</id>
+    <published>2022-05-05T16:10:23+08:00</published>
+    <updated>2022-05-05T16:10:23+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-2b300-3sp120"/>
+    <title>BLUETTI AC300 + 2*B300 + 3*PV120 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_2B300_3PV120.jpg?v=1659163442"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            7499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>4 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7588398760189</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">7499.00</s:price>
+      <s:sku>AC300+2*B300+3*PV120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7678690590973</id>
+    <published>2022-05-05T15:41:26+08:00</published>
+    <updated>2022-05-05T15:41:26+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-b300-sp350"/>
+    <title>BLUETTI AC300 + B300 + PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_B300_PV350.jpg?v=1656989761"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            4499.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>2 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7678690590973</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">4499.00</s:price>
+      <s:sku>AC300+B300+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7664118366461</id>
+    <published>2022-04-23T13:51:48+08:00</published>
+    <updated>2022-04-23T13:51:48+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/xt90-to-dc7909-cable"/>
+    <title>XT90 TO DC7909 CABLE For AC200P/AC200Max</title>
+    <s:type>ACCESSORIES</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/XT90ToDC7909_800x_b1114230-37bd-421c-9986-2eb6da42caf0.webp?v=1650693109"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>ACCESSORIES<br>
+        <strong>Price: </strong>
+            19.90
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong data-mce-fragment="1"><em>Estimated shipping time: in Nov.</em></strong></p>
+<p><strong data-mce-fragment="1">Applicable Models:</strong><span data-mce-fragment="1"> AC200/AC200P/AC200Max</span><br data-mce-fragment="1"><strong data-mce-fragment="1">Function:</strong><span data-mce-fragment="1"> Works with the BLUETTI T500 (500W) AC adapter for dual-adapter charging.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7664118366461</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">19.90</s:price>
+      <s:sku>AC200-7909-TO-XT90PB-F</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7662622310653</id>
+    <published>2022-04-22T14:50:49+08:00</published>
+    <updated>2022-04-22T14:50:49+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/cigarette-lighter-output-port-to-dc5521"/>
+    <title>Cigarette Lighter Output port to DC5521 (AC300/B230/B300)</title>
+    <s:type>ACCESSORIES</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/CIGARETTELIGHTEROUTPUTPORT.webp?v=1650610197"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>ACCESSORIES<br>
+        <strong>Price: </strong>
+            29.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong _mstmutation="1">AC300-24V:<span> </span></strong><span>Used to convert the 24V cigarette lighter output port to a DC5521 port.</span><br _mstmutation="1" data-mce-fragment="1"><strong _mstmutation="1">B230/B300-12V:<span> </span></strong><span>Used to convert the 12V cigarette lighter output port to a DC5521 port.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7662622310653</id>
+      <title>AC300-24V</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>AC300-Cigarette-to-5521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7662622310653</id>
+      <title>B230/B300-12V</title>
+      <s:price currency="EUR">29.99</s:price>
+      <s:sku>B230-Cigarette to 5521</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7654995820797</id>
+    <published>2022-04-20T11:28:06+08:00</published>
+    <updated>2022-04-20T11:28:06+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-2b300-2sp350-power-station-combo"/>
+    <title>BLUETTI AC300 + 2*B300 + 2*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_2B300_2PV350.jpg?v=1656989673"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            8097.98
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7654995820797</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">8097.98</s:price>
+      <s:sku>AC300+2*B300+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7658172875005</id>
+    <published>2022-04-20T11:16:19+08:00</published>
+    <updated>2022-04-20T11:16:19+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-ac300-4b300-power-station-combo"/>
+    <title>BLUETTI AC300 + 4*B300 Home Battery Backup</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_4B230.jpg?v=1650424575"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            10999.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul>
+<li>100% modular, accept up to 4xB300.</li>
+<li>2400W Unrivaled Solar Input.</li>
+<li>3000W Pure Sine Wave Inverter.</li>
+<li>5400W Blazing Input Rate.</li>
+<li>24/7 UPS Home Backup</li>
+<li>2 Years Worry-Free Warranty.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7658172875005</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">10999.00</s:price>
+      <s:sku>AC300+4*B300</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7645415735549</id>
+    <published>2022-04-09T18:48:53+08:00</published>
+    <updated>2022-04-09T18:48:53+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac300-2b300-3sp350"/>
+    <title>BLUETTI AC300 + 2*B300 + 3*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC300_2B300_3PV350.jpg?v=1656989732"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            9099.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7645415735549</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">9099.00</s:price>
+      <s:sku>AC300+2*B300+3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7645414195453</id>
+    <published>2022-04-09T18:41:13+08:00</published>
+    <updated>2022-04-09T18:41:13+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max-2b230-2sp350"/>
+    <title>BLUETTI AC200MAX+2*B230+2*PV350 Solar Generator Kit</title>
+    <s:type>Bundle</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_2B230_2PV350.jpg?v=1656989426"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Bundle<br>
+        <strong>Price: </strong>
+            6996.98
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7645414195453</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">6996.98</s:price>
+      <s:sku>AC200MAX+2*B230+2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

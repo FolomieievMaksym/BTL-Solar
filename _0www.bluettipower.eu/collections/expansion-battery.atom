@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.bluettipower.eu/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.bluettipower.eu/collections/expansion-battery.atom"/>
+  <title>Bluettipower-EU</title>
+  <updated>2022-11-17T16:18:07+08:00</updated>
+  <author>
+    <name>Bluettipower-EU</name>
+  </author>
+  <entry>
+    <id>https://www.bluettipower.eu/products/8022284894475</id>
+    <published>2022-11-17T16:18:07+08:00</published>
+    <updated>2022-11-17T16:18:07+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-b300s-expansion-battery"/>
+    <title>BLUETTI B300S Expansion Battery | 3072Wh</title>
+    <s:type>Battery Module</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/B300S_1_3.jpg?v=1668666003"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Battery Module<br>
+        <strong>Price: </strong>
+            2799.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/8022284894475</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">2799.00</s:price>
+      <s:sku>B300S</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7469017366781</id>
+    <published>2022-01-11T14:37:17+08:00</published>
+    <updated>2022-01-11T14:37:17+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/b300"/>
+    <title>BLUETTI B300 Expansion Battery | 3072Wh</title>
+    <s:type>Battery Module</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/BluettiB300_1.jpg?v=1637918047"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Battery Module<br>
+        <strong>Price: </strong>
+            2299.00 - 6897.00
+            <a href="https://www.bluettipower.eu/products/b300">(5 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul class="uk-list uk-list-disc uk-text-small uk-text-500">
+<li>Features with a 100W USB-C, a 12V/10A car output and a USB-A ports, you can use the B300 as a portable power station.</li>
+<li>The smart MPPT inside of the B300 enables it to recharge quickly through solar power at a 200W maximum loading scale.</li>
+<li>You can also recharge it by wall socket, car charging or lead-acid battery.</li>
+<li>Car charging and lead-acid battery charging need to be realized through D050S.</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469017366781</id>
+      <title>B300</title>
+      <s:price currency="EUR">2299.00</s:price>
+      <s:sku>B300</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469017366781</id>
+      <title>2*B300</title>
+      <s:price currency="EUR">4598.00</s:price>
+      <s:sku>2*B300</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469017366781</id>
+      <title>3*B300</title>
+      <s:price currency="EUR">6897.00</s:price>
+      <s:sku>3*B300</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469017366781</id>
+      <title>B300+PV350</title>
+      <s:price currency="EUR">3199.00</s:price>
+      <s:sku>B300+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469017366781</id>
+      <title>B300+PV200</title>
+      <s:price currency="EUR">2799.00</s:price>
+      <s:sku>B300+PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7469007175933</id>
+    <published>2022-01-11T14:37:16+08:00</published>
+    <updated>2022-01-11T14:37:16+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/b230"/>
+    <title>BLUETTI B230 Expansion Battery | 2048Wh</title>
+    <s:type>Battery Module</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/B230_4_Years_Warranty.png?v=1663842785"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Battery Module<br>
+        <strong>Price: </strong>
+            1399.00 - 2798.00
+            <a href="https://www.bluettipower.eu/products/b230">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul class="uk-list uk-list-disc uk-text-small uk-text-500">
+<li>B230 equipped with 2048Wh capacity.</li>
+<li>One 100W USB-C, a 12V/10A car output and a USB-A ports.</li>
+<li>Versatile power inputs allow you to recharge no matter where you are.</li>
+<li>Solar charging, car charging and lead-acid battery charging need to be realized through D050S</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469007175933</id>
+      <title>B230</title>
+      <s:price currency="EUR">1399.00</s:price>
+      <s:sku>B230</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469007175933</id>
+      <title>2*B230</title>
+      <s:price currency="EUR">2798.00</s:price>
+      <s:sku>2*B230</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469007175933</id>
+      <title>B230+PV350</title>
+      <s:price currency="EUR">2299.00</s:price>
+      <s:sku>B230+PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7469007175933</id>
+      <title>B230+PV200</title>
+      <s:price currency="EUR">1899.00</s:price>
+      <s:sku>B230+PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.bluettipower.eu/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.bluettipower.eu/collections/portable-power-station.atom"/>
+  <title>Bluettipower-EU</title>
+  <updated>2022-09-09T13:51:23+08:00</updated>
+  <author>
+    <name>Bluettipower-EU</name>
+  </author>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7995098202379</id>
+    <published>2022-09-09T13:51:23+08:00</published>
+    <updated>2022-09-09T13:51:23+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/eb3a"/>
+    <title>BLUETTI EB3A Portable Power Station | 600W 268Wh</title>
+    <s:type></s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/1_103a38b7-f29e-4454-8356-782a7fc55578.jpg?v=1662967933"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            299.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7995098202379</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">299.00</s:price>
+      <s:sku>EB3A</s:sku>
+      <s:grams>10000</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7439017312509</id>
+    <published>2022-01-11T10:24:21+08:00</published>
+    <updated>2022-01-11T10:24:21+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/ac200max"/>
+    <title>BLUETTI AC200MAX Expandable Power Station | 2200W 2048Wh</title>
+    <s:type>Portable Power Station</s:type>
+    <s:vendor>Bluetti</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200MAX_4_Years_Warranty.png?v=1663842601"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluetti<br>
+        <strong>Type: </strong>Portable Power Station<br>
+        <strong>Price: </strong>
+            1899.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><div class="uk-margin">
+<ul class="uk-list uk-list-disc">
+<li>LFP Battery with life cycle 3500+ to 80%.</li>
+<li>Expandable with up to 2 battery modules.</li>
+<li>Up to 6,144Wh with 2×B230’s, or 8,192Wh with 2×B300’s</li>
+<li>2,200W pure sine wave AC inverter, Surge 4800W.</li>
+<li>Up to 900W solar input rate and 500W adapter input, 1400W in total.</li>
+<li>Smart App control &amp; monitor.</li>
+</ul>
+</div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7439017312509</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">1899.00</s:price>
+      <s:sku>AC200MAX-EU-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/6644270072005</id>
+    <published>2021-04-28T16:24:00+08:00</published>
+    <updated>2021-04-28T16:24:00+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-ac50s"/>
+    <title>BLUETTI PowerOak AC50S Portable Power Station | 300W 500Wh</title>
+    <s:type>Portable Power Station</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/2a.jpg?v=1662950455"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Portable Power Station<br>
+        <strong>Price: </strong>
+            499.99
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong><span style="background-color: #ffff00;">In Stock: AC50S-Blue</span></strong></p>
+<p><strong><span style="background-color: #ffff00;">Out of Stock: AC50S-Gray &amp; AC50S-Orange </span></strong></p>
+<h4>
+<strong data-mce-fragment="1">BLUETTI AC50S (EU version)</strong><span data-mce-fragment="1"> </span>
+</h4>
+<h4>
+<span data-mce-fragment="1">500Wh/300W Portable Power Station - Keep Your Gears Running, Indoors And Out.</span><br>
+</h4>
+<p><span data-mce-fragment="1">*Smaller, lighter design, No Gas, No Fumes &amp; No Noise. A way cleaner, safer and quieter alternative to gasoline backup generators.</span><br data-mce-fragment="1"><span data-mce-fragment="1">*Regulated 12V DC Output, run your 12V appliances without reduction.</span><br data-mce-fragment="1"><span data-mce-fragment="1">*That's designed to“power drones, camera equipment, laptops, phones, and more.</span><br data-mce-fragment="1"><br data-mce-fragment="1"><span data-mce-fragment="1">Regulated 12V DC Output</span><br data-mce-fragment="1"><span data-mce-fragment="1">3 Charge Methods(Solar Panel,AC Wall Outlet,Car Charge)</span><br data-mce-fragment="1"><span data-mce-fragment="1">Industry-leading Outputs(AC and 45W PD USB-C Power port)</span><br data-mce-fragment="1"><span data-mce-fragment="1">MPPT Built-In</span><br data-mce-fragment="1"><span data-mce-fragment="1">Intelligent Cooling System</span><br data-mce-fragment="1"><span data-mce-fragment="1">Ultra-safe Lithium Battery</span><br data-mce-fragment="1"><span data-mce-fragment="1">LED Lantern+SOS function</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644270072005</id>
+      <title>Blue</title>
+      <s:price currency="EUR">499.99</s:price>
+      <s:sku>AC50S-EU-BLUE</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644270072005</id>
+      <title>Orange</title>
+      <s:price currency="EUR">499.99</s:price>
+      <s:sku>AC50S-EU-ORANGE</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644270072005</id>
+      <title>Gray</title>
+      <s:price currency="EUR">499.99</s:price>
+      <s:sku>AC50S-EU-GRAY-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/6644260962501</id>
+    <published>2021-04-28T16:13:38+08:00</published>
+    <updated>2021-04-28T16:13:38+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-ac200p-power-station"/>
+    <title>BLUETTI PowerOak AC200P Solar Portable Power Station | 2000W 2000Wh</title>
+    <s:type>Portable Power Station</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/AC200P_4_Years_Warranty_51046480-3a5d-4bc5-999e-1224ab2eea3e.png?v=1663842743"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Portable Power Station<br>
+        <strong>Price: </strong>
+            1699.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><br></p>
+<p data-mce-fragment="1"><strong data-mce-fragment="1">BLUETTI AC200P (EU version)</strong>  Portable Power Station-Large Capacity, High Power. Home Backup Power.<br data-mce-fragment="1"></p>
+<p data-mce-fragment="1">Keep your equipment running indoors and outdoors.<br data-mce-fragment="1"><br data-mce-fragment="1">2000Wh/2000W Higher Output/Larger Capacity<br data-mce-fragment="1">13 Output Ports Meet Multiple Devices<br data-mce-fragment="1">Flexible 5 Recharge Ways(AC/Solar/Car/Generator/Lead acid battery)<br data-mce-fragment="1">Smart Touchable Interaction LCD Display<br data-mce-fragment="1">700W Solar+500W AC Recharge in 2-2.5Hrs<br data-mce-fragment="1">Dual AC adapter(500W) Fast recharge in 2-2.5Hrs<br data-mce-fragment="1">Eco-friendly/Gas free/Quieter/Cost-effective</p>
+<p><em data-mce-fragment="1"><span data-mce-fragment="1">Tips:</span>The open circuit voltage of AC200P is between 35V-150V, please make sure solar panels' open circuit voltage is in the range,otherwise it may cause low voltage/overvoltage protection. In addition, considering the loss of solar panels during conversion, the effect of 2 panels is not good. we suggest to connect at least 3pcs Bluetti solar panel in series.</em><br></p>
+<div><img class="Image--lazyLoad Image--fadeIn" data-src="https://cdn.shopify.com/s/files/1/0566/6396/5893/files/az.jpg?v=1638003363"></div></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>0.02OFF</s:tag>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644260962501</id>
+      <title>Default Title</title>
+      <s:price currency="EUR">1699.00</s:price>
+      <s:sku>AC200P-EU-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

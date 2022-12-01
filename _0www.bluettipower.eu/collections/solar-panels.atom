@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.bluettipower.eu/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.bluettipower.eu/collections/solar-panels.atom"/>
+  <title>Bluettipower-EU</title>
+  <updated>2022-07-01T14:15:07+08:00</updated>
+  <author>
+    <name>Bluettipower-EU</name>
+  </author>
+  <entry>
+    <id>https://www.bluettipower.eu/products/7631166439677</id>
+    <published>2022-07-01T14:15:07+08:00</published>
+    <updated>2022-07-01T14:15:07+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/pv350"/>
+    <title>BLUETTI PV350 Solar Panel | 350W</title>
+    <s:type>Solar Panel</s:type>
+    <s:vendor>Bluettipower-EU</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/10001.jpg?v=1648520792"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Bluettipower-EU<br>
+        <strong>Type: </strong>Solar Panel<br>
+        <strong>Price: </strong>
+            839.00 - 3356.00
+            <a href="https://www.bluettipower.eu/products/pv350">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><ul class="uk-list uk-list-disc uk-text-small uk-text-500" data-mce-fragment="1">
+<li data-mce-fragment="1">Off-Grid Power Supply</li>
+<li data-mce-fragment="1">Foldable &amp; Portable</li>
+<li data-mce-fragment="1">Durable &amp; Splash-proof</li>
+<li data-mce-fragment="1">23.4% Conversion Rate</li>
+<li data-mce-fragment="1">Wide Compatibility</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7631166439677</id>
+      <title>PV350</title>
+      <s:price currency="EUR">839.00</s:price>
+      <s:sku>PV350-EU-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7631166439677</id>
+      <title>2*PV350</title>
+      <s:price currency="EUR">1678.00</s:price>
+      <s:sku>2*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7631166439677</id>
+      <title>3*PV350</title>
+      <s:price currency="EUR">2517.00</s:price>
+      <s:sku>3*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/7631166439677</id>
+      <title>4*PV350</title>
+      <s:price currency="EUR">3356.00</s:price>
+      <s:sku>4*PV350</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/6644380041413</id>
+    <published>2021-04-28T17:52:34+08:00</published>
+    <updated>2021-04-28T17:52:34+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-sp200"/>
+    <title>BLUETTI PV200 Solar Panel | 200W</title>
+    <s:type>Solar Panel</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/1_a634f846-a82c-455b-8d52-6b4132ec7156.jpg?v=1657963158"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Solar Panel<br>
+        <strong>Price: </strong>
+            459.00 - 1836.00
+            <a href="https://www.bluettipower.eu/products/bluetti-sp200">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><span data-mce-fragment="1" style="font-size: 1.4em;">BLUETTI PV200 - 200W SOLAR PANEL WITH </span><span style="font-size: 1.4em;" data-pf-type="Text" class="sc-eGJWMs gQYBcx pf-39_">HIGH PERFORMANCE </span></p>
+<p><meta charset="utf-8">The BLUETTI PV200 (200W) Solar Panel is perfect for new customers wanting to start solar. It's great for off-grid applications, such as RVs, trailers, boats, sheds, and cabins — providing many benefits, including, but not limited to, quiet power production and grid independence. Adding a monocrystalline solar panel + solar generator kit can extend your travels further than ever before. Compatible with all BLUETTI Solar Power Stations.<br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bluetti</s:tag>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644380041413</id>
+      <title>PV200</title>
+      <s:price currency="EUR">459.00</s:price>
+      <s:sku>PV200-EU-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644380041413</id>
+      <title>2*PV200</title>
+      <s:price currency="EUR">918.00</s:price>
+      <s:sku>2*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644380041413</id>
+      <title>3*PV200</title>
+      <s:price currency="EUR">1377.00</s:price>
+      <s:sku>3*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644380041413</id>
+      <title>4*PV200</title>
+      <s:price currency="EUR">1836.00</s:price>
+      <s:sku>4*PV200</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.bluettipower.eu/products/6644331905221</id>
+    <published>2021-04-28T17:03:54+08:00</published>
+    <updated>2021-04-28T17:03:54+08:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.bluettipower.eu/products/bluetti-sp120"/>
+    <title>BLUETTI PV120 Solar Panel | 120W</title>
+    <s:type>Solar Panel</s:type>
+    <s:vendor>BLUETTI</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0566/6396/5893/products/1_141ca7d4-ca6d-4234-896e-34b2d751ff7b.jpg?v=1659160124"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>BLUETTI<br>
+        <strong>Type: </strong>Solar Panel<br>
+        <strong>Price: </strong>
+            309.00 - 1236.00
+            <a href="https://www.bluettipower.eu/products/bluetti-sp120">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><meta charset="utf-8">
+<p><br></p>
+<p><span style="font-size: 1.4em;" data-mce-fragment="1">BLUETTI SP120 - 120w SOLAR PANEL WITH </span><span class="sc-eGJWMs gQYBcx pf-39_" data-pf-type="Text" style="font-size: 1.4em;">HIGH PERFORMANCE </span><br></p>
+<p><span data-mce-fragment="1">The </span><span data-mce-fragment="1">BLUETTI SP120 Solar Panel (120W)</span><span data-mce-fragment="1"> is perfect for new customers wanting to get a start in solar. It's great for off-grid applications, such as RVs, trailers, boats, sheds, and cabins — providing many benefits, including, but not limited to, quiet power production and grid independence. Adding a monocrystalline solar panel + solar generator kit can extend your travels further than ever before. Compatible with all </span><span data-mce-fragment="1">BLUETTI Solar Power Stations</span><span data-mce-fragment="1">.</span></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Bluetti</s:tag>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644331905221</id>
+      <title>PV120</title>
+      <s:price currency="EUR">309.00</s:price>
+      <s:sku>PV120-EU-SPF</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644331905221</id>
+      <title>2*PV120</title>
+      <s:price currency="EUR">618.00</s:price>
+      <s:sku>2*PV120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644331905221</id>
+      <title>3*PV120</title>
+      <s:price currency="EUR">927.00</s:price>
+      <s:sku>3*PV120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.bluettipower.eu/products/6644331905221</id>
+      <title>4*PV120</title>
+      <s:price currency="EUR">1236.00</s:price>
+      <s:sku>4*PV120</s:sku>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -84,10 +84,11 @@
       @include fl(24);
       background-color: $dark;
       color: $light;
-      box-shadow: 0 2px 5px $dark;
+      box-shadow: 0 0px 5px $dark;
       transition: all 0.3s ease;
       &:hover {
          transform: scale(1.05);
+         box-shadow: 0 0px 10px $dark;
       }
       &:active {
          transform: scale(1.02);
