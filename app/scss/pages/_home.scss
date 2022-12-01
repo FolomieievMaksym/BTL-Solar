@@ -162,8 +162,7 @@
    }
 }
 .products {
-   padding-top: percent(100, 1920);
-   padding-bottom: percent(100, 1920);
+   @extend %paddings;
 
    // .products__container
 
@@ -305,8 +304,7 @@
    }
 }
 .about {
-   padding-top: percent(100, 1920);
-   padding-bottom: percent(100, 1920);
+   @extend %paddings;
    // .about__container
 
    &__container {
@@ -375,8 +373,7 @@
    }
 }
 .benefits {
-   padding-top: percent(100, 1920);
-   padding-bottom: percent(100, 1920);
+   @extend %paddings;
    // .benefits__container
 
    &__container {
@@ -428,8 +425,7 @@
    }
 }
 .order {
-   padding-top: percent(100, 1920);
-   padding-bottom: percent(100, 1920);
+   @extend %paddings;
    // .order__container
 
    &__container {
