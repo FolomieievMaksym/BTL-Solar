@@ -72,12 +72,12 @@
          left: 100%;
          width: 100%;
          backdrop-filter: blur(0px);
-         transition: left 1s ease 0.3s, backdrop-filter 0.3s ease 0s;
+         transition: left 0.7s ease 0.1s, backdrop-filter 0.1s ease 0s;
          overflow-y: auto;
          &.active {
             left: 0;
             backdrop-filter: blur(5px);
-            transition: left 1s ease, backdrop-filter 0.3s ease 1s;
+            transition: left 0.7s ease, backdrop-filter 0.3s ease 0.7s;
          }
       }
    }
@@ -206,6 +206,7 @@
    // .header__button
 
    &__button {
+      display: inline-block;
       @extend %radius1;
       @extend %padding1;
       background-color: $dark;

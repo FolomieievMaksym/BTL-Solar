@@ -72,3 +72,31 @@ function hideHeaderPart() {
       header.style.opacity = "1";
    }
 }
+
+// ! Links
+let regLink = /^#(.*)/;
+let links = document.querySelectorAll(`[href]`);
+// console.log(links);
+links.forEach((el) => {
+   if (el.getAttribute("href").match(regLink)) {
+      // console.log(el.getAttribute("href"));
+      el.addEventListener("click", scrollToBlock);
+   }
+});
+function scrollToBlock(e) {
+   e.preventDefault();
+   let blockId = e.target.getAttribute("href").slice(1);
+   let block = document.getElementById(blockId);
+   let coords = getCoords(block);
+   window.scrollTo(0, coords.top - header.scrollHeight - 20);
+}
+
+function getCoords(elem) {
+   let box = elem.getBoundingClientRect();
+   return {
+      top: box.top + window.pageYOffset,
+      right: box.right + window.pageXOffset,
+      bottom: box.bottom + window.pageYOffset,
+      left: box.left + window.pageXOffset,
+   };
+}

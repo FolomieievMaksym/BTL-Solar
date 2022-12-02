@@ -1,0 +1,89 @@
+.bg-block {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   position: relative;
+   height: 50vh;
+   position: relative;
+   &:after {
+      content: "";
+      position: absolute;
+      top: 0px;
+      left: -15%;
+      right: -15%;
+      bottom: 10px;
+      box-shadow: 0 20px 50px #000, 0 20px 50px #000, 0 20px 50px #000, 0 -20px 50px #000, 0 -20px 50px #000,
+         0 -20px 50px #000;
+   }
+   &__bg {
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+         max-width: 100vw;
+         height: 50vh;
+      }
+      &:after {
+         content: "";
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background: rgba(0, 0, 0, 0.5);
+      }
+   }
+   &__container {
+      @extend %container;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      max-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $light;
+      text-align: center;
+   }
+   &__title {
+      @media (max-width: 768px) {
+         font-size: 2.5em;
+         margin-bottom: 20px;
+      }
+      @media (min-width: 769px) {
+         font-size: 3em;
+         margin-bottom: percent(40, 1073);
+      }
+      text-shadow: 0 0 2px $dark;
+      span {
+         font-weight: 600;
+      }
+   }
+   &__text {
+      @media (max-width: 768px) {
+         font-size: 1.3em;
+         max-width: 80%;
+         margin-bottom: 30px;
+      }
+      @media (min-width: 769px) {
+         font-size: 1.5em;
+         max-width: 62%;
+         margin-bottom: percent(50, 1073);
+      }
+      margin-left: auto;
+      margin-right: auto;
+      text-shadow: 0 0 2px $dark;
+   }
+}

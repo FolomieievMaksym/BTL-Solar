@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+@@include('./components/structure/_head.html', {
+'lang': 'en',
+'css': 'product-1',
+'title': '500W',
+'swiper': 'false',
+})
+<!-- todo указать нужное значение дял подключени\отключения свайпера -->
+
+<body class="home">
+	<div class="wrapper">
+		@@include('./components/structure/_header-1.html')
+		<main>
+			<section class="hero">
+				<div class="hero__container">
+					<div class='hero__image'>
+						<picture>
+							<source type='image/webp' srcset='@img/gallery/1.webp'>
+							<img src='@img/gallery/1.png' alt='Product image'>
+						</picture>
+					</div>
+					<div class="hero__content" id="about">
+						<h4 class="hero__title">Argus 500W</h4>
+						<ul class="hero__list">
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+						</ul>
+						<p class="hero__price">20 000 грн</p>
+						<a href="#form" class="hero__button">Заказать</a>
+					</div>
+				</div>
+			</section>
+			<section class="description">
+				<div class="description__container" id="description">
+					<h5 class="description__title">Описание</h5>
+					<div class="description__content">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, recusandi pisicing elit. Ut, recusandae exercitationem labore modi minus magnam?</p>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elite exercitationem labore modi minus magnam?</p>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elbore modi minus magnam?</p>
+					</div>
+				</div>
+			</section>
+			<section class="bg-block">
+				<div class='bg-block__bg'>
+					<picture>
+						<source type='image/webp' srcset='@img/gallery/bg.webp'>
+						<img src='@img/gallery/bg.jpg' alt='Background image'>
+					</picture>
+				</div>
+				<div class="bg-block__container">
+					<div class="bg-block__body">
+						<h1 class="bg-block__title">Какой-то крутой текст про <span>ARGUS</span> и картинку на фоне</h1>
+						<p class="bg-block__text">Краткое описание</p>
+					</div>
+				</div>
+			</section>
+			@@include('./components/sections/_benefits.html')
+			@@include('./components/sections/_order.html')
+		</main>
+		@@include('./components/structure/_footer.html')
+	</div>
+	@@include('./components/structure/_scripts.html', {
+	'swiper': 'false',
+	'script': 'script',
+	})
+	<!-- todo указать нужное значение дял подключения\отключения свайпера -->
+</body>
+
+</html>

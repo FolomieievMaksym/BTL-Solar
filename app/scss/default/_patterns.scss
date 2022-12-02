@@ -23,10 +23,22 @@
    }
 }
 %paddings {
-   @media (max-width: 768px) {
-      padding-top: percent(50, 320);
-      padding-bottom: percent(50, 320);
+   @media (min-width: 0px) and (max-width: 460px) {
+      padding-top: 30px;
+      padding-bottom: 30px;
    }
+   @media (min-width: 461px) and (max-width: 660px) {
+      padding-top: 40px;
+      padding-bottom: 40px;
+   }
+   @media (min-width: 661px) and (max-width: 768px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+   // @media (max-width: 768px) {
+   //    padding-top: percent(50, 320);
+   //    padding-bottom: percent(50, 320);
+   // }
    @media (min-width: 769px) {
       padding-top: percent(150, 1920);
       padding-bottom: percent(150, 1920);

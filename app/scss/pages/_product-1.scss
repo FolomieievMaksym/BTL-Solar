@@ -1,0 +1,202 @@
+.hero {
+   @media (max-width: 768px) {
+      padding-top: 20px;
+   }
+   @media (min-width: 769px) {
+      padding-top: 50px;
+   }
+   // .hero__container
+
+   &__container {
+      @extend %container;
+      @media (min-width: 769px) {
+         display: grid;
+         grid-template-columns: repeat(12, 1fr);
+         column-gap: 50px;
+      }
+   }
+
+   // .hero__image
+
+   &__image {
+      position: relative;
+      @media (max-width: 768px) {
+         margin-bottom: 25px;
+      }
+      @media (min-width: 769px) {
+         grid-column: span 5;
+      }
+      img {
+         @extend %radius2;
+         @media (max-width: 768px) {
+            max-width: 100%;
+            border-radius: 20px;
+         }
+         @media (min-width: 769px) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+         }
+      }
+   }
+
+   // .hero__content
+
+   &__content {
+      grid-column: span 7;
+      position: relative;
+      padding-bottom: 20px;
+      &:after {
+         content: "";
+         position: absolute;
+         bottom: 0px;
+         left: 0;
+         width: 100%;
+         height: 1px;
+         background: $dark;
+         opacity: 0.2;
+         border-radius: 2px;
+      }
+   }
+
+   // .hero__title
+
+   &__title {
+      @media (max-width: 989px) {
+         font-size: 1.75em;
+         margin-bottom: 25px;
+      }
+      @media (min-width: 990px) {
+         font-size: 2.2em;
+         margin-bottom: 40px;
+      }
+      font-weight: 700;
+      display: inline-block;
+      position: relative;
+      &:after {
+         content: "";
+         position: absolute;
+         bottom: -10px;
+         left: 0;
+         width: 100%;
+         height: 3px;
+         background: $dark;
+         opacity: 0.5;
+         border-radius: 2px;
+      }
+   }
+
+   // .hero__price
+
+   &__price {
+      @media (max-width: 989px) {
+         font-size: 1.6em;
+         margin-bottom: 15px;
+      }
+      @media (min-width: 990px) {
+         font-size: 2em;
+         margin-bottom: 25px;
+      }
+   }
+
+   // .hero__list
+
+   &__list {
+      @media (max-width: 989px) {
+         font-size: 1.2em;
+         margin-bottom: 25px;
+      }
+      @media (min-width: 990px) {
+         font-size: 1.3em;
+         margin-bottom: 40px;
+      }
+      @media (min-width: 1200px) {
+         font-size: 1.4em;
+      }
+      @media (min-width: 1400px) {
+         font-size: 1.5em;
+      }
+      li {
+         &:not(:last-child) {
+            margin-bottom: 10px;
+         }
+      }
+   }
+
+   // .hero__button
+
+   &__button {
+      display: inline-block;
+      @extend %radius1;
+      @extend %padding1;
+      background-color: $dark;
+      color: $light;
+      box-shadow: 0 0px 5px $dark;
+      transition: all 0.3s ease;
+      @media (max-width: 768px) {
+         font-size: 1.5em;
+      }
+      @media (min-width: 769px) {
+         font-size: 1.4em;
+      }
+      @media (min-width: 1400px) {
+         font-size: 1.75em;
+      }
+      &:hover {
+         transform: scale(1.05);
+         box-shadow: 0 0px 10px $dark;
+      }
+      &:active {
+         transform: scale(1.02);
+         opacity: 0.9;
+      }
+   }
+}
+.description {
+   @extend %paddings;
+   // .description__container
+
+   &__container {
+      @extend %container;
+   }
+
+   // .description__title
+
+   &__title {
+      @media (max-width: 989px) {
+         font-size: 1.75em;
+         margin-bottom: 25px;
+      }
+      @media (min-width: 990px) {
+         font-size: 2.2em;
+         margin-bottom: 40px;
+      }
+      font-weight: 600;
+   }
+
+   // .description__content
+
+   &__content {
+      p {
+         &:not(:last-child) {
+            margin-bottom: 10px;
+         }
+         @media (max-width: 989px) {
+            font-size: 1.1em;
+         }
+         @media (min-width: 990px) {
+            font-size: 1.2em;
+         }
+         @media (min-width: 1200px) {
+            font-size: 1.3em;
+         }
+         @media (min-width: 1400px) {
+            font-size: 1.4em;
+         }
+      }
+   }
+}
