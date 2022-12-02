@@ -821,6 +821,11 @@ svg.phone {
   border-radius: 2px;
 }
 
+.hero__list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 .hero__list li:not(:last-child) {
   margin-bottom: 10px;
 }

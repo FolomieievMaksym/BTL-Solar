@@ -106,6 +106,8 @@
    // .hero__list
 
    &__list {
+      list-style-type: disc;
+      list-style-position: inside;
       @media (max-width: 989px) {
          font-size: 1.2em;
          margin-bottom: 25px;
