@@ -1,0 +1,105 @@
+.horizontal-gallery {
+   // .horizontal-gallery__swiper-big
+   &__swiper-big {
+      margin-bottom: 10px;
+   }
+   &__big-wrap {
+      overflow: hidden;
+      @media (max-width: 768px) {
+         border-radius: 20px;
+      }
+      @media (min-width: 769px) {
+         border-radius: 40px;
+      }
+   }
+
+   // .horizontal-gallery__slide-big
+   &__slide-big {
+      cursor: grab;
+   }
+
+   // .horizontal-gallery__image-big
+   &__image-big {
+      position: relative;
+      padding-bottom: 100%;
+      overflow: hidden;
+      @media (max-width: 768px) {
+         border-radius: 20px;
+      }
+      @media (min-width: 769px) {
+         border-radius: 40px;
+      }
+      img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+         transition: transform 1s ease;
+         @media (max-width: 768px) {
+            border-radius: 20px;
+         }
+         @media (min-width: 769px) {
+            border-radius: 40px;
+         }
+      }
+      &:hover {
+         img {
+            transform: scale(1.1);
+         }
+      }
+   }
+   // .horizontal-gallery__slide-small
+   &__slide-small {
+      cursor: pointer;
+   }
+
+   .swiper-slide-thumb-active {
+      .horizontal-gallery__image-small {
+         position: relative;
+         @media (max-width: 768px) {
+            border-radius: 10px;
+         }
+         @media (min-width: 769px) {
+            border-radius: 20px;
+         }
+         &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border: 4px solid $decor;
+            @media (max-width: 768px) {
+               border-radius: 10px;
+            }
+            @media (min-width: 769px) {
+               border-radius: 20px;
+            }
+         }
+      }
+   }
+   // .horizontal-gallery__image-small
+   &__image-small {
+      position: relative;
+      padding-bottom: 100%;
+      img {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         object-position: center;
+         @media (max-width: 768px) {
+            border-radius: 10px;
+         }
+         @media (min-width: 769px) {
+            border-radius: 20px;
+         }
+      }
+   }
+}

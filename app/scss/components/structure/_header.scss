@@ -54,13 +54,16 @@
    // .header__logo
 
    &__logo {
-      @media (max-width: 768px) {
-         @include fz(32);
+      img {
+         max-width: 120px;
       }
-      @media (min-width: 769px) {
-         @include fz(50);
-      }
-      font-weight: 700;
+      // @media (max-width: 768px) {
+      //    @include fz(32);
+      // }
+      // @media (min-width: 769px) {
+      //    @include fz(50);
+      // }
+      // font-weight: 700;
    }
 
    // .header__right

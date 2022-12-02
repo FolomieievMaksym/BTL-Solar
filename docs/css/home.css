@@ -259,8 +259,8 @@ svg.phone {
   column-gap: 15px;
 }
 
-.header__logo {
-  font-weight: 700;
+.header__logo img {
+  max-width: 120px;
 }
 
 .header__menu-list a {
@@ -512,8 +512,8 @@ svg.phone {
 }
 
 .bg-block {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   position: relative;
   height: 50vh;
   position: relative;
@@ -786,7 +786,7 @@ svg.phone {
   position: relative;
   min-height: 100vh;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero:after {
@@ -1017,10 +1017,6 @@ svg.phone {
   .header__container {
     padding-top: 15px;
     padding-bottom: 15px;
-  }
-
-  .header__logo {
-    font-size: 3.125rem;
   }
 
   .header__right-wrapper {
@@ -1482,10 +1478,6 @@ svg.phone {
   .header__container {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .header__logo {
-    font-size: 2rem;
   }
 
   .header__right {

@@ -133,10 +133,6 @@ input[type=submit],
   border-radius: 8px;
 }
 
-.hero__image img {
-  border-radius: 40px;
-}
-
 .hero__button,
 .header__button {
   padding: 10px 16px;
@@ -258,8 +254,8 @@ svg.phone {
   column-gap: 15px;
 }
 
-.header__logo {
-  font-weight: 700;
+.header__logo img {
+  max-width: 120px;
 }
 
 .header__menu-list a {
@@ -510,9 +506,79 @@ svg.phone {
   opacity: 0.7;
 }
 
+.horizontal-gallery__swiper-big {
+  margin-bottom: 10px;
+}
+
+.horizontal-gallery__big-wrap {
+  overflow: hidden;
+}
+
+.horizontal-gallery__slide-big {
+  cursor: grab;
+}
+
+.horizontal-gallery__image-big {
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+.horizontal-gallery__image-big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  transition: transform 1s ease;
+}
+
+.horizontal-gallery__image-big:hover img {
+  transform: scale(1.1);
+}
+
+.horizontal-gallery__slide-small {
+  cursor: pointer;
+}
+
+.horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small {
+  position: relative;
+}
+
+.horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 4px solid rgb(4, 82, 209);
+}
+
+.horizontal-gallery__image-small {
+  position: relative;
+  padding-bottom: 100%;
+}
+
+.horizontal-gallery__image-small img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
 .bg-block {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   position: relative;
   height: 50vh;
   position: relative;
@@ -781,10 +847,6 @@ svg.phone {
   opacity: 0.9;
 }
 
-.hero__image {
-  position: relative;
-}
-
 .hero__content {
   grid-column: span 7;
   position: relative;
@@ -885,10 +947,6 @@ svg.phone {
     padding-bottom: 15px;
   }
 
-  .header__logo {
-    font-size: 3.125rem;
-  }
-
   .header__right-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -928,6 +986,30 @@ svg.phone {
 
   .footer__container {
     font-size: 1.4em;
+  }
+
+  .horizontal-gallery__big-wrap {
+    border-radius: 40px;
+  }
+
+  .horizontal-gallery__image-big {
+    border-radius: 40px;
+  }
+
+  .horizontal-gallery__image-big img {
+    border-radius: 40px;
+  }
+
+  .horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small {
+    border-radius: 20px;
+  }
+
+  .horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small:after {
+    border-radius: 20px;
+  }
+
+  .horizontal-gallery__image-small img {
+    border-radius: 20px;
   }
 
   .bg-block__title {
@@ -990,20 +1072,8 @@ svg.phone {
     column-gap: 50px;
   }
 
-  .hero__image {
+  .hero__gallery {
     grid-column: span 5;
-  }
-
-  .hero__image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
   }
 
   .hero__button {
@@ -1244,10 +1314,6 @@ svg.phone {
     padding-bottom: 10px;
   }
 
-  .header__logo {
-    font-size: 2rem;
-  }
-
   .header__right {
     position: fixed;
     top: 0;
@@ -1311,6 +1377,30 @@ svg.phone {
 
   .footer__container {
     font-size: 1.1em;
+  }
+
+  .horizontal-gallery__big-wrap {
+    border-radius: 20px;
+  }
+
+  .horizontal-gallery__image-big {
+    border-radius: 20px;
+  }
+
+  .horizontal-gallery__image-big img {
+    border-radius: 20px;
+  }
+
+  .horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small {
+    border-radius: 10px;
+  }
+
+  .horizontal-gallery .swiper-slide-thumb-active .horizontal-gallery__image-small:after {
+    border-radius: 10px;
+  }
+
+  .horizontal-gallery__image-small img {
+    border-radius: 10px;
   }
 
   .bg-block__title {
@@ -1384,13 +1474,8 @@ svg.phone {
     padding-top: 20px;
   }
 
-  .hero__image {
+  .hero__gallery {
     margin-bottom: 25px;
-  }
-
-  .hero__image img {
-    max-width: 100%;
-    border-radius: 20px;
   }
 
   .hero__button {
