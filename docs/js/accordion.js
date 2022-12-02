@@ -8,11 +8,11 @@ document.querySelectorAll("[data-accordion]").forEach((el) => {
 });
 
 // ? Если нужно открыть элемент аккордеона при загрузке страницы - нужно добавить класс 'opened' к элементу data-accordion
-if (document.querySelector("[data-accordion].opened")) {
-   document.querySelectorAll("[data-accordion].opened").forEach((el) => {
-      el.children[1].style.height = el.children[1].scrollHeight + "px";
-   });
-}
+// if (document.querySelector("[data-accordion].opened")) {
+//    document.querySelectorAll("[data-accordion].opened").forEach((el) => {
+//       el.children[1].style.height = el.children[1].scrollHeight + "px";
+//    });
+// }
 
 function toggleAccordion(e) {
    if (e.target.closest("[data-accordion] > div:first-child")) {

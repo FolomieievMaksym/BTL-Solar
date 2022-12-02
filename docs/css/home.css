@@ -121,6 +121,7 @@ input[type=submit],
 .products__container,
 .hero__container,
 .order__container,
+.faq__container,
 .benefits__container,
 .bg-block__container,
 .footer__container,
@@ -639,6 +640,57 @@ svg.phone {
   font-weight: 600;
 }
 
+.faq__container {
+  display: grid;
+  row-gap: 10px;
+}
+
+.faq__title {
+  font-weight: 700;
+}
+
+.spoiler {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(225, 225, 225);
+  color: #232323;
+  border-radius: 10px;
+  box-shadow: 0 0 7px rgb(162, 162, 162);
+}
+
+.spoiler__preview {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spoiler__icon {
+  transition: all 0.3s ease;
+}
+
+.spoiler__icon svg {
+  width: 20px;
+  height: auto;
+}
+
+.spoiler__icon svg path {
+  fill: #232323;
+}
+
+.spoiler__wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.spoiler.opened .spoiler__icon {
+  transform: rotate(180deg);
+}
+
 .order__left {
   display: flex;
   flex-direction: column;
@@ -1045,6 +1097,7 @@ svg.phone {
   .products__container,
   .hero__container,
   .order__container,
+  .faq__container,
   .benefits__container,
   .bg-block__container,
   .footer__container,
@@ -1141,6 +1194,21 @@ svg.phone {
 
   .benefits__text {
     font-size: 1.5em;
+  }
+
+  .faq__title {
+    font-size: 2.2em;
+    margin-bottom: 2.0833333333%;
+  }
+
+  .spoiler__preview {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .spoiler__body {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .order__title {
@@ -1307,6 +1375,7 @@ svg.phone {
   .products__container,
   .hero__container,
   .order__container,
+  .faq__container,
   .benefits__container,
   .bg-block__container,
   .footer__container,
@@ -1359,6 +1428,7 @@ svg.phone {
   .products__container,
   .hero__container,
   .order__container,
+  .faq__container,
   .benefits__container,
   .bg-block__container,
   .footer__container,
@@ -1402,6 +1472,7 @@ svg.phone {
   .products__container,
   .hero__container,
   .order__container,
+  .faq__container,
   .benefits__container,
   .bg-block__container,
   .footer__container,
@@ -1416,6 +1487,7 @@ svg.phone {
   .products__container,
   .hero__container,
   .order__container,
+  .faq__container,
   .benefits__container,
   .bg-block__container,
   .footer__container,
@@ -1632,6 +1704,21 @@ svg.phone {
 
   .benefits__text {
     font-size: 1.3em;
+  }
+
+  .faq__title {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+  }
+
+  .spoiler__preview {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .spoiler__body {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .order {
