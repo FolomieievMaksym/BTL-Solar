@@ -36,7 +36,9 @@
 				</ul>
 			</div>
 		</div>
-		<form class="order__right">
+		<form class="order__right" action="https://fressme.fun/send-local.php" method="POST">
+			<input name="utm1" type="hidden" value="argus">
+			<input name="utm2" type="hidden" value="google/fb">
 			<div class="order__form-body">
 				<input type="text" placeholder="Ваше Имя">
 				<input type="tel" placeholder="Номер телефона">

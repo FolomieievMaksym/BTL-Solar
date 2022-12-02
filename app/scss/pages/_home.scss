@@ -215,7 +215,7 @@
       width: 100%;
       overflow: hidden;
       @extend %radius2;
-
+      box-shadow: 0 0 5px $dark;
       &:hover {
          img {
             transform: scale(1.1);

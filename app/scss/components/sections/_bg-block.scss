@@ -86,4 +86,25 @@
       margin-right: auto;
       text-shadow: 0 0 2px $dark;
    }
+   &__button {
+      @extend %radius1;
+      @extend %padding1;
+      border: 1px solid $light;
+      display: inline-block;
+      @media (max-width: 768px) {
+         font-size: 1.3em;
+      }
+      @media (min-width: 769px) {
+         font-size: 1.5em;
+      }
+      transition: all 0.3s ease;
+      &:hover {
+         transform: scale(1.05);
+         box-shadow: 0 0 10px $light;
+      }
+      &:active {
+         transform: scale(1.02);
+         opacity: 0.9;
+      }
+   }
 }

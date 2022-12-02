@@ -134,6 +134,7 @@ input[type=submit],
   border-radius: 8px;
 }
 
+.products__image img,
 .products__image {
   border-radius: 40px;
 }
@@ -512,8 +513,8 @@ svg.phone {
 }
 
 .bg-block {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   position: relative;
   height: 50vh;
   position: relative;
@@ -786,7 +787,7 @@ svg.phone {
   position: relative;
   min-height: 100vh;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero:after {
@@ -881,8 +882,18 @@ svg.phone {
   display: grid;
 }
 
+.products__item:nth-child(odd) .products__logo img {
+  transform: translateX(40%) scale(1.1);
+  transform: translateX(60%) scale(1.1);
+}
+
 .products__item:nth-child(odd) .products__image-content {
   text-align: left;
+}
+
+.products__item:nth-child(even) .products__logo img {
+  transform: translateX(-45%) scale(1.1);
+  transform: translateX(-65%) scale(1.1);
 }
 
 .products__item:nth-child(even) .products__image-content {
@@ -910,6 +921,28 @@ svg.phone {
   -o-object-position: center;
   object-position: center;
   transition: all 1s ease;
+}
+
+.products__logo {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  right: 15%;
+  bottom: 0%;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.products__logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
 }
 
 .products__image-content {

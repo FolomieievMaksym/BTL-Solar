@@ -129,11 +129,13 @@ input[type=submit],
 }
 
 .hero__button,
+.bg-block__button,
 .header__button {
   border-radius: 8px;
 }
 
 .hero__button,
+.bg-block__button,
 .header__button {
   padding: 10px 16px;
 }
@@ -556,7 +558,7 @@ svg.phone {
   left: 0;
   bottom: 0;
   right: 0;
-  border: 4px solid rgb(4, 82, 209);
+  border: 2px solid rgb(4, 82, 209);
 }
 
 .horizontal-gallery__image-small {
@@ -654,6 +656,22 @@ svg.phone {
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 2px #232323;
+}
+
+.bg-block__button {
+  border: 1px solid #fff;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.bg-block__button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #fff;
+}
+
+.bg-block__button:active {
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 
 .benefits__title {
@@ -884,12 +902,67 @@ svg.phone {
 }
 
 .hero__list {
-  list-style-type: disc;
-  list-style-position: inside;
+  margin-bottom: 20px;
 }
 
-.hero__list li:not(:last-child) {
-  margin-bottom: 10px;
+.hero__list > li {
+  position: relative;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.hero__list > li:after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #232323;
+  opacity: 0.1;
+}
+
+.hero__list > li span,
+.hero__list > li p,
+.hero__list > li div,
+.hero__list > li li {
+  line-height: 1.2;
+}
+
+.hero__list > li div {
+  grid-column: span 3;
+  font-weight: 600;
+  color: red;
+  text-decoration: underline;
+  padding: 5px 0;
+}
+
+.hero__list > li li {
+  position: relative;
+}
+
+.hero__list > li li:before {
+  content: "- ";
+}
+
+.hero__list > li li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.hero__subtitle {
+  font-weight: 600;
+}
+
+.hero__subtitle span {
+  display: block;
+}
+
+.hero__buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
 }
 
 .hero__button {
@@ -916,6 +989,21 @@ svg.phone {
 
 .description__content p:not(:last-child) {
   margin-bottom: 10px;
+}
+
+@media (min-width: 461px) {
+  .hero__list > li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .hero__subtext {
+    align-self: center;
+    display: grid;
+    row-gap: 12px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -1023,6 +1111,10 @@ svg.phone {
     margin-bottom: 4.659832246%;
   }
 
+  .bg-block__button {
+    font-size: 1.5em;
+  }
+
   .benefits__title {
     font-size: 2.2em;
     margin-bottom: 3.6458333333%;
@@ -1076,6 +1168,10 @@ svg.phone {
     grid-column: span 5;
   }
 
+  .hero__subtitle span {
+    margin-bottom: 8px;
+  }
+
   .hero__button {
     font-size: 1.4em;
   }
@@ -1089,12 +1185,6 @@ svg.phone {
 
   .hero__price {
     font-size: 2em;
-    margin-bottom: 25px;
-  }
-
-  .hero__list {
-    font-size: 1.3em;
-    margin-bottom: 40px;
   }
 
   .description__title {
@@ -1178,10 +1268,6 @@ svg.phone {
     padding: 40px 55px;
   }
 
-  .hero__list {
-    font-size: 1.4em;
-  }
-
   .description__content p {
     font-size: 1.3em;
   }
@@ -1221,10 +1307,6 @@ svg.phone {
 
   .order__right {
     padding: 60px;
-  }
-
-  .hero__list {
-    font-size: 1.5em;
   }
 
   .hero__button {
@@ -1285,12 +1367,6 @@ svg.phone {
 
   .hero__price {
     font-size: 1.6em;
-    margin-bottom: 15px;
-  }
-
-  .hero__list {
-    font-size: 1.2em;
-    margin-bottom: 25px;
   }
 
   .description__title {
@@ -1414,6 +1490,10 @@ svg.phone {
     margin-bottom: 30px;
   }
 
+  .bg-block__button {
+    font-size: 1.3em;
+  }
+
   .benefits {
     padding-top: 0px;
   }
@@ -1478,8 +1558,23 @@ svg.phone {
     margin-bottom: 25px;
   }
 
+  .hero__subtitle {
+    margin-bottom: 10px;
+  }
+
+  .hero__subtitle span {
+    margin-bottom: 4px;
+  }
+
   .hero__button {
     font-size: 1.5em;
+  }
+}
+
+@media (max-width: 460px) {
+  .hero__subtext {
+    display: grid;
+    row-gap: 2px;
   }
 }
 
