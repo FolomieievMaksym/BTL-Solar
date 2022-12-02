@@ -7,11 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	
-	<link rel="stylesheet" href="./css/home.min.css">
+	<link rel="stylesheet" href="./css/swiper-bundle.min.css">
+	
+	<link rel="stylesheet" href="./css/product.min.css">
 	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
-	<title>Home</title>
+	<title>500W</title>
 </head>
-<!-- todo указать нужное значение дял подключени\отключения свайпера -->
 
 <body class="home">
 	<div class="wrapper">
@@ -23,6 +24,7 @@
 				<img src='img/logo.png' alt='Logo'>
 			</picture>
 		</a>
+		<!-- <a href="index.html" class="header__logo">Argus</a> -->
 		<div class="header__burger burger">
 			<div class="burger__wrapper">
 				<span></span>
@@ -32,10 +34,10 @@
 			<div class="header__right-wrapper">
 				<div class="header__menu">
 					<ul class="header__menu-list">
-						<li><a href="#500W">500W</a></li>
-						<li><a href="#1000W">1000W</a></li>
+						<li><a href="index.html">Главная</a></li>
 						<li><a href="#about">Характеристики</a></li>
-						<li><a href="#benefits">Преимущества</a></li>
+						<li><a href="#description">Описание</a></li>
+						<!-- <li><a href="#benefits">Преимущества</a></li> -->
 					</ul>
 				</div>
 				<div class="header__buttons">
@@ -83,77 +85,127 @@
 </header>
 		<main>
 			<section class="hero">
-				<div class='hero__bg'>
-					<picture>
-						<source type='image/webp' srcset='img/gallery/bg.webp'>
-						<img src='img/gallery/bg.jpg' alt='Background image'>
-					</picture>
-				</div>
 				<div class="hero__container">
-					<div class="hero__body">
-						<h1 class="hero__title">Портативные источники питания <span>ARGUS</span></h1>
-						<p class="hero__text">Впечатляющая сила не обязательно должна быть в большом размере</p>
-						<a href="#products" class="hero__button">Узнать больше</a>
+					<div class="hero__gallery horizontal-gallery">
+						<div class="horizontal-gallery__big-wrap">
+							<div class="horizontal-gallery__swiper-big swiper slider">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide horizontal-gallery__slide-big">
+										<div class='horizontal-gallery__image-big'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-1.webp">
+												<img src="img/gallery/500W-1.png" alt='Gallery photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-big">
+										<div class='horizontal-gallery__image-big'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-2.webp">
+												<img src="img/gallery/500W-2.png" alt='Gallery photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-big">
+										<div class='horizontal-gallery__image-big'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-3.webp">
+												<img src="img/gallery/500W-3.png" alt='Gallery photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-big">
+										<div class='horizontal-gallery__image-big'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-4.webp">
+												<img src="img/gallery/500W-4.png" alt='Gallery photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-big">
+										<div class='horizontal-gallery__image-big'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-5.webp">
+												<img src="img/gallery/500W-5.png" alt='Gallery photo'>
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="horizontal-gallery__small-wrap">
+							<div class="horizontal-gallery__swiper-small swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide horizontal-gallery__slide-small">
+										<div class='horizontal-gallery__image-small'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-1.webp">
+												<img src="img/gallery/500W-1.png" alt='Gallery preview photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-small">
+										<div class='horizontal-gallery__image-small'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-2.webp">
+												<img src="img/gallery/500W-2.png" alt='Gallery preview photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-small">
+										<div class='horizontal-gallery__image-small'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-3.webp">
+												<img src="img/gallery/500W-3.png" alt='Gallery preview photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-small">
+										<div class='horizontal-gallery__image-small'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-4.webp">
+												<img src="img/gallery/500W-4.png" alt='Gallery preview photo'>
+											</picture>
+										</div>
+									</div>
+									<div class="swiper-slide horizontal-gallery__slide-small">
+										<div class='horizontal-gallery__image-small'>
+											<picture>
+												<source type='image/webp' srcset="img/gallery/500W-5.webp">
+												<img src="img/gallery/500W-5.png" alt='Gallery preview photo'>
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="hero__content" id="about">
+						<h4 class="hero__title">Argus 500W</h4>
+						<ul class="hero__list">
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+							<li>Xарактеристики</li>
+						</ul>
+						<p class="hero__price">20 000 грн</p>
+						<a href="#form" class="hero__button">Заказать</a>
 					</div>
 				</div>
 			</section>
-			<section class="products">
-				<div class="products__container" id="products">
-					<div class="products__item" id="500W">
-						<div class='products__image'>
-							<div class="products__image-content">
-								<p class="products__image-model">Argus 500W</p>
-								<p class="products__image-text">Small text about</p>
-							</div>
-							<picture>
-								<source type='image/webp' srcset='img/gallery/1.webp'>
-								<img src='img/gallery/1.png' alt='Product #1'>
-							</picture>
-							<div class="products__logo">
-								<picture>
-									<source type='image/webp' srcset='img/gallery/logo-transparent.webp'>
-									<img src='img/gallery/logo-transparent.png' alt='Logo'>
-								</picture>
-							</div>
-						</div>
-						<div class="products__about">
-							<div class="products__about-top">
-								<h2 class="products__about-title">Крутой заголовок</h2>
-								<p class="products__about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint autem assumenda? Quasi nisi, voluptas nobis pariatur temporibus facere libero vel facilis magni officia sequi itaque sunt voluptates suscipit natus dolor illo aliquam atque labore? Adipisci voluptatem beatae a doloribus omnis? Odio quibusdam doloribus voluptas laborum architecto. Eos, dignissimos impedit quod ab veniam alias aut veritatis iure est, optio placeat!</p>
-							</div>
-							<div class="products__about-bottom">
-								<p class="products__price">Стоимость: 20 000 грн. </p>
-								<a href="500W.html" class="products__link">Читать больше...</a>
-							</div>
-						</div>
-					</div>
-					<div class="products__item" id="1000W">
-						<div class='products__image'>
-							<div class="products__image-content">
-								<p class="products__image-model">Argus 1000W</p>
-								<p class="products__image-text">Small text about</p>
-							</div>
-							<picture>
-								<source type='image/webp' srcset='img/gallery/2.webp'>
-								<img src='img/gallery/2.png' alt='Product #2'>
-							</picture>
-							<div class="products__logo">
-								<picture>
-									<source type='image/webp' srcset='img/gallery/logo-transparent.webp'>
-									<img src='img/gallery/logo-transparent.png' alt='Logo'>
-								</picture>
-							</div>
-						</div>
-						<div class="products__about">
-							<div class="products__about-top">
-								<h2 class="products__about-title">Крутой заголовок</h2>
-								<p class="products__about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel sint autem assumenda? Quasi nisi, voluptas nobis pariatur temporibus facere libero vel facilis magni officia sequi itaque sunt voluptates suscipit natus dolor illo aliquam atque labore? Adipisci voluptatem beatae a doloribus omnis? Odio quibusdam doloribus voluptas laborum architecto. Eos, dignissimos impedit quod ab veniam alias aut veritatis iure est, optio placeat!</p>
-							</div>
-							<div class="products__about-bottom">
-								<p class="products__price">Стоимость: 25 000 грн. </p>
-								<a href="1000W.html" class="products__link">Читать больше...</a>
-							</div>
-						</div>
+			<section class="description">
+				<div class="description__container" id="description">
+					<h5 class="description__title">Описание</h5>
+					<div class="description__content">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, recusandi pisicing elit. Ut, recusandae exercitationem labore modi minus magnam?</p>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elite exercitationem labore modi minus magnam?</p>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elbore modi minus magnam?</p>
 					</div>
 				</div>
 			</section>
@@ -168,52 +220,6 @@
 					<div class="bg-block__body">
 						<h1 class="bg-block__title">Какой-то крутой текст про <span>ARGUS</span> и картинку на фоне</h1>
 						<p class="bg-block__text">Краткое описание</p>
-					</div>
-				</div>
-			</section>
-			<section class="about">
-				<div class="about__container">
-					<p id="about" class="about__title">Основные характеристики</p>
-					<div class="about__product product-about">
-						<p class="product-about__title">ARGUS 500W</p>
-						<ul class="product-about__list">
-							<li>
-								<span class="product-about__num">1</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis veniam ecitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-							<li>
-								<span class="product-about__num">2</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet elit. Debitis veniam exercitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-							<li>
-								<span class="product-about__num">3</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.veniam exercitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-							<li>
-								<span class="product-about__num">4</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consecteturebitis veniam exercitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-						</ul>
-					</div>
-					<div class="about__product product-about">
-						<p class="product-about__title">ARGUS 1000W</p>
-						<ul class="product-about__list">
-							<li>
-								<span class="product-about__num">1</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consectetur adipisic
-							<li>
-								<span class="product-about__num">2</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consectetur ad Debitis veniam exercitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-							<li>
-								<span class="product-about__num">3</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, aicing elit. Debitis veniam exercitationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-							<li>
-								<span class="product-about__num">4</span>
-								<p class="product-about__text">Lorem ipsum dolor sit, amet consectetur adipisi citationem reiciendis fugit recusandae. Dolorem.</p>
-							</li>
-						</ul>
 					</div>
 				</div>
 			</section>
@@ -351,6 +357,8 @@
 </footer>
 	</div>
 	
+<script src="js/swiper-bundle.min.js"></script>
+
 <script type="text/javascript">
 	function downloadJSAtOnload() {
 		let element = document.createElement("script");
@@ -366,7 +374,6 @@
 		window.onload = downloadJSAtOnload;
 	}
 </script>
-	<!-- todo указать нужное значение дял подключения\отключения свайпера -->
 </body>
 
 </html>
