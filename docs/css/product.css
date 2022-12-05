@@ -583,8 +583,10 @@ svg.phone {
   margin-top: 30px;
   margin-bottom: 30px;
   position: relative;
-  height: 50vh;
-  position: relative;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-block:after {
@@ -617,7 +619,7 @@ svg.phone {
   -o-object-position: center;
   object-position: center;
   max-width: 100vw;
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .bg-block__bg:after {
@@ -631,11 +633,8 @@ svg.phone {
 }
 
 .bg-block__container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: relative;
+  height: 100%;
   z-index: 1;
   max-height: 100vh;
   display: flex;
@@ -1156,6 +1155,11 @@ svg.phone {
     border-radius: 20px;
   }
 
+  .bg-block__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .bg-block__title {
     font-size: 3em;
     margin-bottom: 3.7278657968%;
@@ -1552,6 +1556,11 @@ svg.phone {
 
   .horizontal-gallery__image-small img {
     border-radius: 10px;
+  }
+
+  .bg-block__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .bg-block__title {
