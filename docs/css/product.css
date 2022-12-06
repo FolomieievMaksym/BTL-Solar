@@ -119,6 +119,7 @@ input[type=submit],
 
 .description__container,
 .hero__container,
+.hero-vid__container,
 .order__container,
 .faq__container,
 .benefits__container,
@@ -130,6 +131,7 @@ input[type=submit],
 }
 
 .hero__button,
+.hero-vid__button,
 .gallery-images__image,
 .bg-block__button,
 .header__button {
@@ -137,6 +139,7 @@ input[type=submit],
 }
 
 .hero__button,
+.hero-vid__button,
 .bg-block__button,
 .header__button {
   padding: 10px 16px;
@@ -967,6 +970,145 @@ svg.phone {
   opacity: 0.9;
 }
 
+.hero-vid {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 30px;
+  padding-bottom: 43.1818181818%;
+  background: linear-gradient(to bottom, #fff, #232323);
+}
+
+.hero-vid:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -15%;
+  right: -15%;
+  bottom: 10px;
+  bottom: 3px;
+  box-shadow: 0 20px 50px #000, 0 20px 50px #000, 0 20px 50px #000;
+}
+
+.hero-vid__bg {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.hero-vid__bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.hero-vid__bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-vid__container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-vid__body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.hero-vid__title {
+  text-shadow: 0 0 2px #232323;
+}
+
+.hero-vid__title span {
+  font-weight: 600;
+}
+
+.hero-vid__text {
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 0 2px #232323;
+}
+
+.hero-vid__button {
+  border: 1px solid #fff;
+  display: inline-block;
+  transform: scale(0);
+  margin-top: auto;
+  animation: showBtn 0.8s ease 2.7s 1 forwards;
+  transition: all 0.3s ease;
+}
+
+.hero-vid__button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #fff;
+}
+
+.hero-vid__button:active {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+@keyframes showBtn {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.my-vid {
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 15.625%;
+}
+
+.my-vid video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
 .hero__content {
   grid-column: span 7;
   position: relative;
@@ -1111,6 +1253,7 @@ svg.phone {
 @media (min-width: 769px) {
   .description__container,
   .hero__container,
+  .hero-vid__container,
   .order__container,
   .faq__container,
   .benefits__container,
@@ -1293,6 +1436,26 @@ svg.phone {
     padding: 25px;
   }
 
+  .hero-vid__bg:after {
+    background: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, transparent, transparent 75%, #000 100%);
+  }
+
+  .hero-vid__title {
+    font-size: 3em;
+    margin-bottom: 3.7278657968%;
+  }
+
+  .hero-vid__text {
+    font-size: 1.5em;
+    max-width: 62%;
+    margin-bottom: 4.659832246%;
+  }
+
+  .hero-vid__button {
+    font-size: 1.5em;
+  }
+
   .hero {
     padding-top: 50px;
   }
@@ -1365,6 +1528,7 @@ svg.phone {
 @media (min-width: 1200px) {
   .description__container,
   .hero__container,
+  .hero-vid__container,
   .order__container,
   .faq__container,
   .benefits__container,
@@ -1417,6 +1581,7 @@ svg.phone {
 @media (min-width: 1400px) {
   .description__container,
   .hero__container,
+  .hero-vid__container,
   .order__container,
   .faq__container,
   .benefits__container,
@@ -1468,6 +1633,7 @@ svg.phone {
 @media (min-width: 1600px) {
   .description__container,
   .hero__container,
+  .hero-vid__container,
   .order__container,
   .faq__container,
   .benefits__container,
@@ -1482,6 +1648,7 @@ svg.phone {
 @media (min-width: 1800px) {
   .description__container,
   .hero__container,
+  .hero-vid__container,
   .order__container,
   .faq__container,
   .benefits__container,
@@ -1726,6 +1893,29 @@ svg.phone {
   .order__form-body input:nth-child(4) {
     font-size: 1.3em;
     padding: 16px 22px;
+  }
+
+  .hero-vid__bg:after {
+    background: linear-gradient(to bottom, transparent, transparent 75%, #000 100%);
+  }
+
+  .hero-vid__container {
+    display: none;
+  }
+
+  .hero-vid__title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .hero-vid__text {
+    font-size: 1.3em;
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .hero-vid__button {
+    font-size: 1.3em;
   }
 
   .hero {
