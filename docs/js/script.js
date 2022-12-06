@@ -1,5 +1,4 @@
 "use strict";
-
 // function qs(element) {
 //    let newEl = document.querySelector(element);
 //    if (newEl) return newEl;
