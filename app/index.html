@@ -3,7 +3,7 @@
 'lang': 'en',
 'css': 'home',
 'title': 'Home',
-'swiper': 'false',
+'swiper': 'true',
 })
 <!-- todo указать нужное значение дял подключени\отключения свайпера -->
 
@@ -13,15 +13,16 @@
 		<main>
 			<section class="hero">
 				<div class='hero__bg'>
-					<picture>
+					<!-- <picture>
 						<source type='image/webp' srcset='@img/gallery/bg.webp'>
 						<img src='@img/gallery/bg.jpg' alt='Background image'>
-					</picture>
+					</picture> -->
+					<video muted autoplay playsinline src="@img/video.mp4"></video>
 				</div>
 				<div class="hero__container">
 					<div class="hero__body">
-						<h1 class="hero__title">Портативные источники питания <span>ARGUS</span></h1>
-						<p class="hero__text">Впечатляющая сила не обязательно должна быть в большом размере</p>
+						<!-- <h1 class="hero__title">Портативные источники питания</h1> -->
+						<!-- <p class="hero__text">Впечатляющая сила не обязательно должна быть в большом размере</p> -->
 						<a href="#products" class="hero__button">Узнать больше</a>
 					</div>
 				</div>
@@ -57,7 +58,7 @@
 								<p class="products__about-text">С портативным источником питания ARGUS Вам не придется искать зарядку для компьютера или телефона и вам больше не прийдется переживать когда у вас отключили электричество . Вы можете подключить компьютеры, телефоны, мини- холодильники, стерео-системы, вентиляторы, переносные лампы, телевизоры, осветительные приборы и другую технику.Нет больше необходимости переживать за отсутствие энергии в вашем доме!</p>
 							</div>
 							<div class="products__about-bottom">
-								<p class="products__price">Стоимость: 20 000 грн. </p>
+								<p class="products__price">Стоимость: 24 000 грн. </p>
 								<a href="500W.html" class="products__link">Читать больше...</a>
 							</div>
 						</div>
@@ -88,7 +89,7 @@
 								<p class="products__about-text">При использовании генератора как ИБП Вам достаточно подключить его к розетке 220 В и использовать его как источник бесперебойного питания для других устройств в помещении на случай перепадов напряжения в электросети или полного отключения. Важная информация или не завершенный проект не будут потеряны.</p>
 							</div>
 							<div class="products__about-bottom">
-								<p class="products__price">Стоимость: 40 000 грн. </p>
+								<p class="products__price">Стоимость: 32 500 грн. </p>
 								<a href="1000W.html" class="products__link">Читать больше...</a>
 							</div>
 						</div>
@@ -109,6 +110,7 @@
 					</div>
 				</div>
 			</section>
+			@@include('./components/sections/_gallery-images.html')
 			<section class="about">
 				<div class="about__container">
 					<p id="about" class="about__title">Основные характеристики</p>
@@ -173,6 +175,7 @@
 					</div>
 				</div>
 			</section>
+			@@include('./components/sections/_gallery-sertificates.html')
 			@@include('./components/sections/_benefits.html')
 			@@include('./components/sections/_faq.html')
 			@@include('./components/sections/_order.html')
@@ -180,7 +183,7 @@
 		@@include('./components/structure/_footer.html')
 	</div>
 	@@include('./components/structure/_scripts.html', {
-	'swiper': 'false',
+	'swiper': 'true',
 	'script': 'script',
 	})
 	<!-- todo указать нужное значение дял подключения\отключения свайпера -->

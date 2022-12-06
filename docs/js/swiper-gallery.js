@@ -28,3 +28,28 @@ if (document.querySelector(".horizontal-gallery__swiper-big")) {
       },
    });
 }
+
+if (document.querySelector(".gallery-images__swiper")) {
+   const swiperHorizontalBig = new Swiper(".gallery-images__swiper", {
+      speed: 500,
+      slidesPerView: 1,
+      spaceBetween: 12,
+      sliderPerColumn: 1,
+      simulateTouch: true,
+      autoHeight: true,
+      loop: true,
+      pagination: {
+         el: ".swiper-pagination",
+         type: "bullets",
+         clickable: true,
+      },
+      breakpoints: {
+         769: {
+            slidesPerView: 2,
+         },
+         990: {
+            slidesPerView: 3,
+         },
+      },
+   });
+}

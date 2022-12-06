@@ -5,6 +5,7 @@
       row-gap: 10px;
    }
    &__title {
+      text-align: center;
       font-weight: 700;
       @media (max-width: 768px) {
          font-size: 1.75em;

@@ -173,7 +173,8 @@ input[type=submit],
   font-style: normal;
 }
 
-body.lock {
+body.lock,
+body.locked {
   overflow: hidden;
 }
 
@@ -709,6 +710,7 @@ svg.phone {
 }
 
 .faq__title {
+  text-align: center;
   font-weight: 700;
 }
 

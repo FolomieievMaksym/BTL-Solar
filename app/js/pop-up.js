@@ -8,7 +8,7 @@ if (document.querySelectorAll("[data-pop-up-open").length > 1) {
 function showPopUp(e) {
    if (e.target.closest("[data-pop-up-open]")) {
       e.target.closest("[data-pop-up-open]").nextElementSibling.classList.add("active");
-      document.body.classList.add("lock");
+      document.body.classList.add("locked");
    }
 }
 
@@ -22,12 +22,12 @@ if (document.querySelectorAll("[data-pop-up").length > 1) {
 function closePopUp(e) {
    if (e.target.closest("[data-pop-up] [data-pop-up-close]")) {
       e.target.closest("[data-pop-up]").classList.remove("active");
-      document.body.classList.remove("lock");
+      document.body.classList.remove("locked");
    } else if (
       !e.target.closest("[data-pop-up] > div > div") &&
       e.target.closest("[data-pop-up]").classList.contains("active")
    ) {
       e.target.closest("[data-pop-up]").classList.remove("active");
-      document.body.classList.remove("lock");
+      document.body.classList.remove("locked");
    }
 }

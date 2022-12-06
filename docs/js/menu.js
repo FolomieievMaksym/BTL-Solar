@@ -47,7 +47,8 @@ function closeBurger() {
 }
 
 // ! <main></main>
-document.querySelector(".hero__container").style.paddingTop = header.scrollHeight + "px";
+// document.querySelector(".hero__container").style.paddingTop = header.scrollHeight + "px";
+document.querySelector("main").style.paddingTop = header.scrollHeight + "px";
 
 // ! Header
 
