@@ -80,6 +80,12 @@ function html() {
       .pipe(browsersync.stream());
 }
 
+function php() {
+   return gulp.src(`./app/*.php`).pipe(gulp.dest(paths.html.dest));
+}
+function defaultFolder() {
+   return gulp.src(`./app/default/**/*`).pipe(gulp.dest(`./docs/default/`));
+}
 // Ужимаем html
 function htmlMin() {
    return gulp
@@ -252,8 +258,10 @@ exports.scss = scss;
 exports.js = js;
 // exports.ts = ts;
 exports.img = img;
+exports.php = php;
+exports.defaultFolder = defaultFolder;
 exports.fonts = fonts;
 exports.watcher = watcher;
 
-exports.default = gulp.series(cleanSoft, gulp.parallel(html, scss, js, img), watcher);
-exports.build = gulp.series(clean, gulp.parallel(htmlMin, fonts, scss, js, img), watcher);
+exports.default = gulp.series(cleanSoft, gulp.parallel(html, scss, js, img, php, defaultFolder), watcher);
+exports.build = gulp.series(clean, gulp.parallel(htmlMin, fonts, scss, js, img, php, defaultFolder), watcher);

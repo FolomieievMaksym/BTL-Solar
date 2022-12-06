@@ -36,14 +36,19 @@
 				</ul>
 			</div>
 		</div>
-		<form class="order__right" action="https://fressme.fun/send-local.php" method="POST">
+		<!-- <form class="order__right" action="https://fressme.fun/send-local.php" method="POST"> -->
+		<!-- <form class="order__right" action="./send-local.php" method="POST"> -->
+		<form class="order__right" action="./mail.php" method="POST">
 			<input name="utm1" type="hidden" value="argus">
 			<input name="utm2" type="hidden" value="google/fb">
+			<input type="hidden" name="project_name" value="Site Name">
+			<input type="hidden" name="admin_email" value="folomieiev.m@gmail.com">
+			<input type="hidden" name="form_subject" value="Form Subject">
 			<div class="order__form-body">
-				<input required="required" type="text" placeholder="Ваше Имя">
-				<input required="required" type="tel" placeholder="Номер телефона" onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)" oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+				<input required="required" type="text" name="name" placeholder="Ваше Имя">
+				<input required="required" type="tel" name="phone" placeholder="Номер телефона" onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)" oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
 			          event.target.value='+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');})(event)" pattern="^\+38\s[\(]?0(39|67|68|96|97|98|50|66|95|99|63|73|93|91|92|94)[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" title="Формат: +38 (0XX) XXX-XX-XX. Проверьте правильность кода оператора.">
-				<input required="required" type="email" placeholder="E-mail" pattern="^[A-Za-z0-9][A-Za-z0-9\.\-_]*[A-Za-z0-9]*@([A-Za-z0-9]+([A-Za-z0-9-]*[A-Za-z0-9]+)*\.)+[A-Za-z]*$">
+				<input required="required" type="email" name="email" placeholder="E-mail" pattern="^[A-Za-z0-9][A-Za-z0-9\.\-_]*[A-Za-z0-9]*@([A-Za-z0-9]+([A-Za-z0-9-]*[A-Za-z0-9]+)*\.)+[A-Za-z]*$">
 				<input type="submit" value="Заказать">
 			</div>
 		</form>
