@@ -219,8 +219,8 @@
 			<section class="bg-block">
 				<div class='bg-block__bg'>
 					<picture>
-						<source type='image/webp' srcset='@img/gallery/bg-half.webp'>
-						<img src='@img/gallery/bg-half.jpg' alt='Background image'>
+						<source type='image/webp' data-srcset='@img/gallery/bg-half.webp'>
+						<img data-img-src='@img/gallery/bg-half.jpg' alt='Background image'>
 					</picture>
 				</div>
 				<div class="bg-block__container">
@@ -230,6 +230,7 @@
 					</div>
 				</div>
 			</section>
+			@@include('./components/sections/_gallery-images.html')
 			@@include('./components/sections/_benefits.html')
 			@@include('./components/sections/_faq.html')
 			@@include('./components/sections/_order.html')

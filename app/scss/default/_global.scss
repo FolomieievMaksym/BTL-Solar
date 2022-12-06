@@ -21,6 +21,12 @@ body {
 }
 main {
    flex: 1 1 auto;
+   @media (max-width: 768px) {
+      padding-top: 60px;
+   }
+   @media (min-width: 769px) {
+      padding-top: 70px;
+   }
 }
 svg {
    width: 30px;

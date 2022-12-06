@@ -39,6 +39,9 @@
    }
    .swiper-pagination {
       bottom: 0px;
+      span.swiper-pagination-bullet-active {
+         background-color: $decor;
+      }
       @media (max-width: 768px) {
          span {
             width: 10px;
@@ -56,6 +59,7 @@
 
    &__image {
       @extend %radius1;
+      box-shadow: 0 0 5px $dark;
       overflow: hidden;
       cursor: grab;
       &:active {
