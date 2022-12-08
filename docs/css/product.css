@@ -899,6 +899,31 @@ svg.phone {
   fill: #fff;
 }
 
+.order__list li:nth-child(4) a {
+  background-color: #30b0e0;
+  box-shadow: 0 0 5px #30b0e0, inset 0 0 5px #fff;
+}
+
+.order__list li:nth-child(4) svg {
+  width: 46px;
+}
+
+.order__list li:nth-child(4) circle {
+  fill: #fff;
+}
+
+.order__list li:nth-child(4) path:nth-child(1) {
+  fill: #30b0e0;
+}
+
+.order__list li:nth-child(4) path:nth-child(2) {
+  fill: #d2e4f0;
+}
+
+.order__list li:nth-child(4) path:nth-child(3) {
+  fill: #30b0e0;
+}
+
 .order__list a {
   display: inline-block;
   border-radius: 25%;
@@ -1947,6 +1972,11 @@ svg.phone {
 }
 
 @media (max-width: 350px) {
+  .order__list {
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+  }
+
   .order__right {
     padding-left: 0;
     padding-right: 0;

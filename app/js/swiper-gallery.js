@@ -44,7 +44,7 @@ if (document.querySelector(".gallery-images__swiper")) {
          clickable: true,
       },
       breakpoints: {
-         769: {
+         600: {
             slidesPerView: 2,
          },
          990: {

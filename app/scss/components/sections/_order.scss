@@ -113,6 +113,9 @@
    &__list {
       display: flex;
       align-items: center;
+      @media (max-width: 350px) {
+         column-gap: 15px;
+      }
       column-gap: 20px;
       li {
          &:nth-child(1) {
@@ -149,6 +152,29 @@
             }
             path {
                fill: $light;
+            }
+         }
+         &:nth-child(4) {
+            a {
+               background-color: #30b0e0;
+               box-shadow: 0 0 5px #30b0e0, inset 0 0 5px $light;
+            }
+            svg {
+               width: 46px;
+            }
+            circle {
+               fill: #fff;
+            }
+            path {
+               &:nth-child(1) {
+                  fill: #30b0e0;
+               }
+               &:nth-child(2) {
+                  fill: #d2e4f0;
+               }
+               &:nth-child(3) {
+                  fill: #30b0e0;
+               }
             }
          }
       }

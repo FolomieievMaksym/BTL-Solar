@@ -13,7 +13,7 @@ if ( $method === 'POST' ) {
 	foreach ( $_POST as $key => $value ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" && $key != "utm1" && $key != "utm2" ) {
 			$message .= "
-			$key:$value;
+			$key: $value;
 			";
 		}
 	}
@@ -26,7 +26,7 @@ if ( $method === 'POST' ) {
 	foreach ( $_GET as $key => $value ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" && $key != "utm1" && $key != "utm2" ) {
 			$message .= "
-			$key:$value;
+			$key: $value;
 			";
 		}
 	}
