@@ -13,6 +13,6 @@ import {} from "./menu.js";
 import {} from "./swiper-gallery.js";
 import {} from "./accordion.js";
 import {} from "./pop-up.js";
-// import {} from "./spoiler.js";
+import {} from "./spoiler.js";
 // import {} from "./animate.js";
 // import {} from "./pop-up-video.js";

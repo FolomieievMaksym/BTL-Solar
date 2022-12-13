@@ -8,11 +8,11 @@ document.querySelectorAll("[data-spoiler]").forEach((el) => {
 });
 
 // ? Если нужно открыть спойлер при загрузке страницы - нужно добавить класс 'opened' к элементу data-spoiler
-if (document.querySelector("[data-spoiler].opened")) {
-   document.querySelectorAll("[data-spoiler].opened").forEach((el) => {
-      el.children[1].style.height = el.children[1].scrollHeight + "px";
-   });
-}
+// if (document.querySelector("[data-spoiler].opened")) {
+//    document.querySelectorAll("[data-spoiler].opened").forEach((el) => {
+//       el.children[1].style.height = el.children[1].scrollHeight + "px";
+//    });
+// }
 
 function toggleSpoiler(e) {
    if (e.target.closest("[data-spoiler]  > div:first-child")) {

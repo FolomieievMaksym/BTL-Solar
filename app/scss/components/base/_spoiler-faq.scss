@@ -1,0 +1,63 @@
+.faq {
+   .spoiler {
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      // background-color: rgb(225, 225, 225);
+      color: $dark;
+      border: 0px solid rgb(225, 225, 225);
+      border-radius: 10px;
+      box-shadow: 0 0 7px rgb(162, 162, 162);
+      line-height: 1.1;
+      &__preview {
+         cursor: pointer; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         @media (max-width: 768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+         }
+         @media (min-width: 769px) {
+            padding-top: 16px;
+            padding-bottom: 16px;
+         }
+         font-weight: 600;
+         position: relative;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 1.2em;
+      }
+      &__icon {
+         transition: all 0.3s ease;
+         svg {
+            width: 20px;
+            height: auto;
+            path {
+               fill: $dark;
+            }
+         }
+      }
+      &__wrapper {
+         height: 0; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         overflow: hidden; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         transition: all 0.5s ease; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         font-size: 1.1em;
+      }
+      &__body {
+         @media (max-width: 768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+         }
+         @media (min-width: 769px) {
+            padding-top: 16px;
+            padding-bottom: 16px;
+         }
+      }
+      &.opened {
+         .spoiler {
+            &__icon {
+               transform: rotate(180deg);
+            }
+         }
+      }
+   }
+}

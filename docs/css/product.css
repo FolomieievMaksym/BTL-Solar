@@ -763,7 +763,7 @@ svg.phone {
   font-weight: 700;
 }
 
-.spoiler {
+.faq .spoiler {
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -774,7 +774,7 @@ svg.phone {
   line-height: 1.1;
 }
 
-.spoiler__preview {
+.faq .spoiler__preview {
   cursor: pointer;
   font-weight: 600;
   position: relative;
@@ -784,27 +784,94 @@ svg.phone {
   font-size: 1.2em;
 }
 
-.spoiler__icon {
+.faq .spoiler__icon {
   transition: all 0.3s ease;
 }
 
-.spoiler__icon svg {
+.faq .spoiler__icon svg {
   width: 20px;
   height: auto;
 }
 
-.spoiler__icon svg path {
+.faq .spoiler__icon svg path {
   fill: #232323;
 }
 
-.spoiler__wrapper {
+.faq .spoiler__wrapper {
   height: 0;
   overflow: hidden;
   transition: all 0.5s ease;
   font-size: 1.1em;
 }
 
-.spoiler.opened .spoiler__icon {
+.faq .spoiler.opened .spoiler__icon {
+  transform: rotate(180deg);
+}
+
+header .spoiler {
+  position: relative;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #232323;
+  line-height: 1.1;
+}
+
+header .spoiler__preview {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  -moz-column-gap: 15px;
+  column-gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+header .spoiler__icon {
+  transition: all 0.3s ease;
+}
+
+header .spoiler__icon svg {
+  width: 20px;
+  height: auto;
+}
+
+header .spoiler__icon svg path {
+  fill: #232323;
+}
+
+header .spoiler__wrapper {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  font-size: 1.1em;
+  box-shadow: 0 0 5px #232323;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+}
+
+header .spoiler__body {
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header .spoiler__body li {
+  font-size: 1.2em;
+}
+
+header .spoiler__body li a {
+  transform: scale(1) !important;
+}
+
+header .spoiler__body li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+header .spoiler.opened .spoiler__icon {
   transform: rotate(180deg);
 }
 
@@ -1429,14 +1496,32 @@ svg.phone {
     margin-bottom: 2.0833333333%;
   }
 
-  .spoiler__preview {
+  .faq .spoiler__preview {
     padding-top: 16px;
     padding-bottom: 16px;
   }
 
-  .spoiler__body {
+  .faq .spoiler__body {
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+
+  header .spoiler__preview {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  header .spoiler__wrapper {
+    right: 0;
+  }
+
+  header .spoiler__body {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  header .spoiler__body li {
+    text-align: right;
   }
 
   .order__title {
@@ -1872,14 +1957,32 @@ svg.phone {
     margin-bottom: 20px;
   }
 
-  .spoiler__preview {
+  .faq .spoiler__preview {
     padding-top: 12px;
     padding-bottom: 12px;
   }
 
-  .spoiler__body {
+  .faq .spoiler__body {
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+
+  header .spoiler__preview {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  header .spoiler__wrapper {
+    left: 0;
+  }
+
+  header .spoiler__body {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  header .spoiler__body li {
+    text-align: left;
   }
 
   .order {

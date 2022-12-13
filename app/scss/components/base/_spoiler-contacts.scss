@@ -1,0 +1,94 @@
+header {
+   .spoiler {
+      position: relative;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      // background-color: rgb(225, 225, 225);
+      color: $dark;
+      line-height: 1.1;
+      // background-color: red;
+      &__preview {
+         cursor: pointer; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         @media (max-width: 768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+         }
+         @media (min-width: 769px) {
+            padding-top: 16px;
+            padding-bottom: 16px;
+         }
+         font-weight: 600;
+         position: relative;
+         display: flex;
+         column-gap: 15px;
+         justify-content: space-between;
+         align-items: center;
+         font-size: 1.2em;
+      }
+      &__icon {
+         transition: all 0.3s ease;
+         svg {
+            width: 20px;
+            height: auto;
+            path {
+               fill: $dark;
+            }
+         }
+      }
+      &__wrapper {
+         height: 0; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         overflow: hidden; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         transition: all 0.5s ease; // ! Либо писать в стилях - либо есть готовая функция в джсе (но лучше стилях)
+         font-size: 1.1em;
+         box-shadow: 0 0 5px $dark;
+         border-radius: 10px;
+         position: absolute;
+         top: 100%;
+         @media (max-width: 768px) {
+            left: 0;
+         }
+         @media (min-width: 769px) {
+            right: 0;
+         }
+         // background-color: red;
+      }
+      &__body {
+         background-color: #fff;
+         // backdrop-filter: blur(10px);
+         padding-left: 20px;
+         padding-right: 20px;
+         // color: $light;
+         @media (max-width: 768px) {
+            padding-top: 12px;
+            padding-bottom: 12px;
+         }
+         @media (min-width: 769px) {
+            padding-top: 16px;
+            padding-bottom: 16px;
+         }
+         li {
+            font-size: 1.2em;
+            @media (max-width: 768px) {
+               text-align: left;
+            }
+            @media (min-width: 769px) {
+               text-align: right;
+            }
+            a {
+               transform: scale(1) !important;
+            }
+            &:not(:last-child) {
+               margin-bottom: 8px;
+            }
+         }
+      }
+      &.opened {
+         .spoiler {
+            &__icon {
+               transform: rotate(180deg);
+            }
+         }
+      }
+   }
+}

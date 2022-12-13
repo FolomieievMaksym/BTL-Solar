@@ -253,16 +253,21 @@
 	'swiper': 'true',
 	'script': 'script',
 	})
-	<script>
-		window.All_chats_widget_id = '3810a845-7a4a-45d7-a5eb-2571ae813ac6';
-		window.All_chats_environment = 'skibbleWidget';
-		(function () {
-			var script = document.createElement('script');
-			script.async = 1;
-			script.src = 'https://cp.skibble.com.ua/all-chats-widget/app.js?version1';
-			var parent_node = document.head || document.body;
-			parent_node.appendChild(script);
-		})();
+	<script type="text/javascript">
+		(function (w, d) {
+			w.HelpCrunch = function () { w.HelpCrunch.q.push(arguments) }; w.HelpCrunch.q = [];
+			function r() { var s = document.createElement('script'); s.async = 1; s.type = 'text/javascript'; s.src = 'https://widget.helpcrunch.com/'; (d.body || d.head).appendChild(s); }
+			if (w.attachEvent) { w.attachEvent('onload', r) } else { w.addEventListener('load', r, false) }
+		})(window, document)
+	</script>
+
+	<script type="text/javascript">
+		HelpCrunch('init', 'argus', {
+			applicationId: 2,
+			applicationSecret: 'p0QHRdKzOO53A5O0NEPMMrxu30KJPrKRKTvKmca+pBQuPUEfWKy5vgu/bspm1g6IwmSvXUGDgQ8trJ4j5Xabsw=='
+		})
+
+		HelpCrunch('showChatWidget');
 	</script>
 </body>
 
