@@ -46,9 +46,6 @@
 		<form class="order__right" action="./mail.php" method="POST">
 			<input name="utm1" type="hidden" value="argus">
 			<input name="utm2" type="hidden" value="google/fb">
-			<input type="hidden" name="project_name" value="Site Name">
-			<input type="hidden" name="admin_email" value="argus.in.ua@gmail.com">
-			<input type="hidden" name="form_subject" value="Form Subject">
 			<div class="order__form-body">
 				<input required="required" type="text" name="name" placeholder="Ваше Ім'я">
 				<input required="required" type="tel" name="phone" placeholder="Номер телефону" onclick="(function(event){if (!event.target.value.length){event.target.value='+38';}})(event)" oninput="(function(event){const x=event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);

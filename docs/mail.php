@@ -1,15 +1,17 @@
 <?php
 $link = "success.php";
 $method = $_SERVER['REQUEST_METHOD'];
-
 //Script Foreach
 $c = true;
 if ( $method === 'POST' ) {
 
-	$project_name = trim($_POST["project_name"]);
-	$admin_email  = trim($_POST["admin_email"]);
-	$form_subject = trim($_POST["form_subject"]);
+	$project_name = "Argus";
+	$admin_email  = "argus.in.ua@gmail.com";
+	$form_subject = "New order";
 
+	$_POST['project_name'] = $project_name;
+	$_POST['admin_email'] = $admin_email;
+	$_POST['form_subject'] = $form_subject;
 	foreach ( $_POST as $key => $value ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" && $key != "utm1" && $key != "utm2" ) {
 			$message .= "
@@ -18,10 +20,14 @@ if ( $method === 'POST' ) {
 		}
 	}
 } else if ( $method === 'GET' ) {
+	
+	$project_name = "Argus";
+	$admin_email  = "argus.in.ua@gmail.com";
+	$form_subject = "New order";
 
-	$project_name = trim($_GET["project_name"]);
-	$admin_email  = trim($_GET["admin_email"]);
-	$form_subject = trim($_GET["form_subject"]);
+	$_GET['project_name'] = $project_name;
+	$_GET['admin_email'] = $admin_email;
+	$_GET['form_subject'] = $form_subject;
 
 	foreach ( $_GET as $key => $value ) {
 		if ( $value != "" && $key != "project_name" && $key != "admin_email" && $key != "form_subject" && $key != "utm1" && $key != "utm2" ) {
