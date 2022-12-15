@@ -1325,9 +1325,20 @@ header .spoiler.opened .spoiler__icon {
   margin-bottom: 8px;
 }
 
+.products__discount {
+  margin-bottom: 4px;
+  color: red;
+  text-decoration: line-through;
+  font-size: 1.4em;
+}
+
 .products__price {
   margin-bottom: 8px;
   font-size: 1.7em;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 4px;
+  column-gap: 4px;
 }
 
 .products__link {
@@ -1626,6 +1637,10 @@ header .spoiler.opened .spoiler__icon {
     text-align: right;
   }
 
+  .products__item:nth-child(odd) .products__about .products__price {
+    justify-content: flex-end;
+  }
+
   .products__item:nth-child(even) .products__image {
     grid-column: span 4;
     order: 2;
@@ -1898,6 +1913,10 @@ header .spoiler.opened .spoiler__icon {
   .products__item:nth-child(even) .products__image {
     max-width: 400px;
     margin-left: auto;
+  }
+
+  .products__item:nth-child(even) .products__about .products__price {
+    justify-content: flex-end;
   }
 
   .products__image {

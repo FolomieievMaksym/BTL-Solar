@@ -202,6 +202,9 @@
                grid-column: span 8;
                order: 2;
                text-align: right;
+               .products__price {
+                  justify-content: flex-end;
+               }
             }
          }
       }
@@ -233,6 +236,11 @@
             text-align: right;
          }
          .products__about {
+            @media (max-width: 989px) {
+               .products__price {
+                  justify-content: flex-end;
+               }
+            }
             @media (min-width: 990px) {
                grid-column: span 8;
                order: 1;
@@ -402,9 +410,19 @@
 
    &__about-bottom {
    }
+   &__discount {
+      // text-align: right;
+      margin-bottom: 4px;
+      color: red;
+      text-decoration: line-through;
+      font-size: 1.4em;
+   }
    &__price {
       margin-bottom: 8px;
       font-size: 1.7em;
+      display: flex;
+      align-items: center;
+      column-gap: 4px;
    }
    &__link {
       color: $decor;

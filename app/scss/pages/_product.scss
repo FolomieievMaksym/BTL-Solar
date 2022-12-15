@@ -231,6 +231,8 @@
    // .hero__price
 
    &__price {
+      display: grid;
+      row-gap: 4px;
       @media (max-width: 989px) {
          font-size: 1.6em;
       }
@@ -238,7 +240,24 @@
          font-size: 2em;
       }
    }
+   &__price-discount {
+      font-size: 0.75em;
+      color: red;
+      text-decoration: line-through;
+   }
 
+   &__price-full {
+      display: flex;
+      align-items: flex-end;
+      column-gap: 4px;
+      span {
+         &:last-child {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+         }
+      }
+   }
    // .hero__list
 
    &__list {

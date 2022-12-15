@@ -1237,6 +1237,30 @@ header .spoiler.opened .spoiler__icon {
   border-radius: 2px;
 }
 
+.hero__price {
+  display: grid;
+  row-gap: 4px;
+}
+
+.hero__price-discount {
+  font-size: 0.75em;
+  color: red;
+  text-decoration: line-through;
+}
+
+.hero__price-full {
+  display: flex;
+  align-items: flex-end;
+  -moz-column-gap: 4px;
+  column-gap: 4px;
+}
+
+.hero__price-full span:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .hero__list {
   margin-bottom: 20px;
 }
