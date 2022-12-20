@@ -10,10 +10,17 @@
     <link rel="stylesheet" href="default/css/media.css"/>
 	
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=cyrillic" rel="stylesheet">
-
+<!-- Event snippet for Покупка conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11029699832/EEHoCJGl2YUYEPi5r4sp',
+      'transaction_id': ''
+  });
+</script>
 </head>
 
 <body>
+
     <div class="block1">
         <div class="block_main">
             <h1 class="text1"><span>ВАША</span> ЗАЯВКА ОФОРМЛЕНА!</h1><br>
