@@ -4,16 +4,16 @@ define('TG_CHAT_ID', '1111958389');
 
 function sendTelegram($msg){
     $chat_id = TG_CHAT_ID;
-    $disable_web_page_preview = null;
-    $reply_to_message_id = null;
-    $reply_markup = null;
+    //$disable_web_page_preview = null;
+    //$reply_to_message_id = null;
+    //$reply_markup = null;
 
     $data = array(
         'chat_id' => urlencode($chat_id),
-        'text' => urlencode($msg),
-        'disable_web_page_preview' => urlencode($disable_web_page_preview),
-        'reply_to_message_id' => urlencode($reply_to_message_id),
-        'reply_markup' => urlencode($reply_markup)
+        'text' => $msg
+        //'disable_web_page_preview' => urlencode($disable_web_page_preview),
+        //'reply_to_message_id' => urlencode($reply_to_message_id),
+        //'reply_markup' => urlencode($reply_markup)
     );
 
     $url = 'https://api.telegram.org/bot'.TG_TOKEN.'/sendMessage';
