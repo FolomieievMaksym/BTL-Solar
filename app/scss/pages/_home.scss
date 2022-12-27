@@ -445,6 +445,7 @@
       @media (min-width: 990px) {
          grid-template-columns: 1fr 1fr;
          column-gap: 50px;
+         row-gap: 60px;
       }
    }
 
@@ -457,7 +458,7 @@
       }
       @media (min-width: 990px) {
          grid-column: span 2;
-         margin-bottom: percent(70, 1920);
+         margin-bottom: percent(10, 1920);
          font-size: 2.2em;
       }
       font-weight: 600;
