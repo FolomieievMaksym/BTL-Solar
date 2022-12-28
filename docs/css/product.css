@@ -810,6 +810,7 @@ svg.phone {
 
 header .spoiler {
   position: relative;
+  z-index: 0;
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -819,7 +820,6 @@ header .spoiler {
 
 header .spoiler__preview {
   cursor: pointer;
-  font-weight: 600;
   position: relative;
   display: flex;
   -moz-column-gap: 15px;
@@ -869,6 +869,14 @@ header .spoiler__body li a {
 
 header .spoiler__body li:not(:last-child) {
   margin-bottom: 8px;
+}
+
+header .spoiler.opened {
+  z-index: 2;
+}
+
+header .spoiler.opened .spoiler {
+  z-index: 2;
 }
 
 header .spoiler.opened .spoiler__icon {
@@ -1418,6 +1426,10 @@ header .spoiler.opened .spoiler__icon {
     column-gap: 10px;
   }
 
+  .header__menu-list .spoiler a {
+    font-size: 1em;
+  }
+
   .header__buttons {
     display: flex;
     align-items: center;
@@ -1883,6 +1895,10 @@ header .spoiler.opened .spoiler__icon {
     justify-items: center;
   }
 
+  .header__menu-list .spoiler a {
+    font-size: 1.1em;
+  }
+
   .header__menu-list a {
     font-size: 1.5em;
     font-weight: 600;
@@ -1994,6 +2010,8 @@ header .spoiler.opened .spoiler__icon {
   header .spoiler__preview {
     padding-top: 12px;
     padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 1.5em;
   }
 
   header .spoiler__wrapper {

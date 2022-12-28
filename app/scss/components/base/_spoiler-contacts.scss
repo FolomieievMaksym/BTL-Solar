@@ -1,6 +1,7 @@
 header {
    .spoiler {
       position: relative;
+      z-index: 0;
       width: auto;
       padding-left: 20px;
       padding-right: 20px;
@@ -13,12 +14,13 @@ header {
          @media (max-width: 768px) {
             padding-top: 12px;
             padding-bottom: 12px;
+            font-weight: 600;
+            font-size: 1.5em;
          }
          @media (min-width: 769px) {
             padding-top: 16px;
             padding-bottom: 16px;
          }
-         font-weight: 600;
          position: relative;
          display: flex;
          column-gap: 15px;
@@ -84,7 +86,9 @@ header {
          }
       }
       &.opened {
+         z-index: 2;
          .spoiler {
+            z-index: 2;
             &__icon {
                transform: rotate(180deg);
             }

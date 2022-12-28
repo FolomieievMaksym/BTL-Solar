@@ -118,6 +118,14 @@
          align-items: center;
          column-gap: 10px;
       }
+      .spoiler a {
+         @media (max-width: 768px) {
+            font-size: 1.1em;
+         }
+         @media (min-width: 769px) {
+            font-size: 1em;
+         }
+      }
       a {
          display: inline-block;
          padding: 5px;
