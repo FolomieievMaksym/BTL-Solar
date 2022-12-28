@@ -3,8 +3,10 @@ header {
       position: relative;
       z-index: 0;
       width: auto;
-      padding-left: 20px;
-      padding-right: 20px;
+      // padding-left: 20px;
+      // padding-right: 20px;
+      padding-left: 5px;
+      padding-right: 5px;
       // background-color: rgb(225, 225, 225);
       color: $dark;
       line-height: 1.1;
@@ -23,7 +25,7 @@ header {
          }
          position: relative;
          display: flex;
-         column-gap: 15px;
+         column-gap: 5px;
          justify-content: space-between;
          align-items: center;
          font-size: 1.2em;
@@ -81,7 +83,21 @@ header {
                transform: scale(1) !important;
             }
             &:not(:last-child) {
-               margin-bottom: 8px;
+               margin-bottom: 12px;
+            }
+         }
+      }
+      ul {
+         ul.spoiler__socials {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            @media (min-width: 769px) {
+               justify-content: flex-end;
+            }
+            column-gap: 10px;
+            li {
+               margin: 0;
             }
          }
       }

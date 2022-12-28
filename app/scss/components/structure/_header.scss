@@ -89,7 +89,7 @@
       @media (max-width: 768px) {
          background-color: $light;
          padding-top: 30px;
-         padding-bottom: 30px;
+         padding-bottom: 55px;
          display: flex;
          flex-direction: column;
          row-gap: 50px;
@@ -101,7 +101,7 @@
          flex-wrap: wrap;
          align-items: center;
          justify-content: flex-end;
-         column-gap: 30px;
+         column-gap: 10px;
          row-gap: 10px;
       }
    }
@@ -195,7 +195,7 @@
       @media (min-width: 769px) {
          display: flex;
          align-items: center;
-         column-gap: 30px;
+         column-gap: 20px;
       }
    }
 
