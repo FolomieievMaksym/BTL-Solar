@@ -415,5 +415,20 @@
             font-size: 1.4em;
          }
       }
+      a {
+         color: $decor;
+         @media (max-width: 989px) {
+            font-size: 1.1em;
+         }
+         @media (min-width: 990px) {
+            font-size: 1.2em;
+         }
+         @media (min-width: 1200px) {
+            font-size: 1.3em;
+         }
+         @media (min-width: 1400px) {
+            font-size: 1.4em;
+         }
+      }
    }
 }

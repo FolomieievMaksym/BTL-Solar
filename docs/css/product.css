@@ -1371,6 +1371,10 @@ header .spoiler.opened .spoiler__icon {
   margin-bottom: 10px;
 }
 
+.description__content a {
+  color: rgb(4, 82, 209);
+}
+
 @media (min-width: 461px) {
   .hero__list > li {
     display: grid;
@@ -1660,6 +1664,10 @@ header .spoiler.opened .spoiler__icon {
   .description__content p {
     font-size: 1.2em;
   }
+
+  .description__content a {
+    font-size: 1.2em;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -1738,6 +1746,10 @@ header .spoiler.opened .spoiler__icon {
   .description__content p {
     font-size: 1.3em;
   }
+
+  .description__content a {
+    font-size: 1.3em;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -1788,6 +1800,10 @@ header .spoiler.opened .spoiler__icon {
   }
 
   .description__content p {
+    font-size: 1.4em;
+  }
+
+  .description__content a {
     font-size: 1.4em;
   }
 }
@@ -1853,6 +1869,10 @@ header .spoiler.opened .spoiler__icon {
   }
 
   .description__content p {
+    font-size: 1.1em;
+  }
+
+  .description__content a {
     font-size: 1.1em;
   }
 }
