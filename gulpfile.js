@@ -58,11 +58,22 @@ const paths = {
       icons: "app/fonts/icons/*.*",
       dest: "docs/fonts",
    },
+   files: {
+      pdf: {
+         file: "app/**/*.pdf",
+         dest: "docs/",
+      },
+   },
 };
 
 // Очистить docs
 function clean() {
    return del("docs/*");
+}
+
+// Копирование файлов
+function copy() {
+   return gulp.src(paths.files.pdf.file).pipe(gulp.dest(paths.files.pdf.dest));
 }
 
 // Очистить docs за исключением ./img в нём
@@ -261,7 +272,8 @@ exports.img = img;
 exports.php = php;
 exports.defaultFolder = defaultFolder;
 exports.fonts = fonts;
+exports.copy = copy;
 exports.watcher = watcher;
 
-exports.default = gulp.series(cleanSoft, gulp.parallel(html, scss, js, img, php, defaultFolder), watcher);
-exports.build = gulp.series(clean, gulp.parallel(htmlMin, fonts, scss, js, img, php, defaultFolder), watcher);
+exports.default = gulp.series(cleanSoft, gulp.parallel(html, scss, js, img, php, defaultFolder, copy), watcher);
+exports.build = gulp.series(clean, gulp.parallel(htmlMin, fonts, scss, js, img, php, defaultFolder, copy), watcher);
