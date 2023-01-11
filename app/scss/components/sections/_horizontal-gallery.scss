@@ -29,7 +29,8 @@
       @media (min-width: 769px) {
          border-radius: 40px;
       }
-      img {
+      img,
+      video {
          position: absolute;
          top: 0;
          left: 0;
@@ -45,6 +46,7 @@
             border-radius: 40px;
          }
       }
+
       &:hover {
          img {
             transform: scale(1.1);
@@ -86,7 +88,8 @@
    &__image-small {
       position: relative;
       padding-bottom: 100%;
-      img {
+      img,
+      video {
          position: absolute;
          top: 0;
          left: 0;
@@ -101,5 +104,8 @@
             border-radius: 20px;
          }
       }
+   }
+   video {
+      object-fit: contain;
    }
 }

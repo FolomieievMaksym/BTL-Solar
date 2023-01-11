@@ -1,4 +1,9 @@
 .header {
+   .spoiler {
+      a {
+         white-space: nowrap;
+      }
+   }
    position: fixed;
    z-index: 11;
    width: 100%;
