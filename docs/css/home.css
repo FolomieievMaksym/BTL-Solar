@@ -233,6 +233,10 @@ svg.phone {
   white-space: nowrap;
 }
 
+.header .spoiler.opened {
+  z-index: 11;
+}
+
 .header:before {
   content: "";
   position: absolute;

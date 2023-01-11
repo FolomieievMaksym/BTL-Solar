@@ -3,6 +3,9 @@
       a {
          white-space: nowrap;
       }
+      &.opened {
+         z-index: 11;
+      }
    }
    position: fixed;
    z-index: 11;
