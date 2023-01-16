@@ -415,20 +415,39 @@
             font-size: 1.4em;
          }
       }
-      a {
-         color: $decor;
+   }
+   &__subtitle {
+      &:not(:first-child) {
          @media (max-width: 989px) {
-            font-size: 1.1em;
+            margin-top: 25px;
          }
          @media (min-width: 990px) {
-            font-size: 1.2em;
+            margin-top: 40px;
          }
-         @media (min-width: 1200px) {
-            font-size: 1.3em;
-         }
-         @media (min-width: 1400px) {
-            font-size: 1.4em;
-         }
+      }
+      @media (max-width: 989px) {
+         font-size: 1.75em;
+         margin-bottom: 25px;
+      }
+      @media (min-width: 990px) {
+         font-size: 2.2em;
+         margin-bottom: 40px;
+      }
+      font-weight: 600;
+   }
+   &__file {
+      color: $decor;
+      @media (max-width: 989px) {
+         font-size: 1.1em;
+      }
+      @media (min-width: 990px) {
+         font-size: 1.2em;
+      }
+      @media (min-width: 1200px) {
+         font-size: 1.3em;
+      }
+      @media (min-width: 1400px) {
+         font-size: 1.4em;
       }
    }
 }

@@ -1398,7 +1398,11 @@ header .spoiler.opened .spoiler__icon {
   margin-bottom: 10px;
 }
 
-.description__content a {
+.description__subtitle {
+  font-weight: 600;
+}
+
+.description__file {
   color: rgb(4, 82, 209);
 }
 
@@ -1698,7 +1702,16 @@ header .spoiler.opened .spoiler__icon {
     font-size: 1.2em;
   }
 
-  .description__content a {
+  .description__subtitle:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .description__subtitle {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+  }
+
+  .description__file {
     font-size: 1.2em;
   }
 }
@@ -1783,7 +1796,7 @@ header .spoiler.opened .spoiler__icon {
     font-size: 1.3em;
   }
 
-  .description__content a {
+  .description__file {
     font-size: 1.3em;
   }
 }
@@ -1839,7 +1852,7 @@ header .spoiler.opened .spoiler__icon {
     font-size: 1.4em;
   }
 
-  .description__content a {
+  .description__file {
     font-size: 1.4em;
   }
 }
@@ -1914,7 +1927,16 @@ header .spoiler.opened .spoiler__icon {
     font-size: 1.1em;
   }
 
-  .description__content a {
+  .description__subtitle:not(:first-child) {
+    margin-top: 25px;
+  }
+
+  .description__subtitle {
+    font-size: 1.75em;
+    margin-bottom: 25px;
+  }
+
+  .description__file {
     font-size: 1.1em;
   }
 }

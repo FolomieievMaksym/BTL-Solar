@@ -9,7 +9,7 @@
 // }
 
 import {} from "./lazy.js";
-import {} from "./menu.js";
+// import {} from "./menu.js";
 import {} from "./swiper-gallery.js";
 import {} from "./accordion.js";
 import {} from "./pop-up.js";
